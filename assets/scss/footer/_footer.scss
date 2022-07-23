@@ -1,0 +1,49 @@
+@use 'base/variables' as v;
+@use 'base/mixins' as m;
+
+.footer{
+   border-top: 1px solid darken(v.$gris, 10);
+   margin-top: 1rem;
+   padding-top: 2rem;
+   .contenedor-footer{
+        display: flex;
+        flex-direction: column;
+        padding: 1rem;
+        @include m.telefono{
+            flex-direction: row;
+            flex-wrap: wrap;
+            .menu{
+                flex: 0 0 calc(50%);
+                text-align: center;
+            }
+        }
+        @include m.desktop{
+            flex-direction: row;
+            flex-wrap: wrap;
+            .menu{
+                flex: 1 0 ;
+                text-align: justify;
+            }
+        }
+        .menu{
+            display: flex;
+            flex-direction: column;
+            margin-bottom: 1rem;
+            flex: 1;
+            .principal{
+                font-size: 1.2rem;
+                font-weight: 400;
+                font-family: v.$fuente_principal;
+            }
+            a{
+                font-size: .9rem;
+                color: v.$negro;
+                text-decoration: none;
+                margin-bottom: .5rem;
+                font-family: v.$fuente_principal;
+                font-weight: 300;
+            }
+        }
+    }
+}
+
