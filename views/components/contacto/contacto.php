@@ -1,26 +1,27 @@
 <?php require_once 'views/components/banner/banner.php' ?>
 
-<div class="contacto contenedor">
-<div class="caja-contacto-info">
-        <div class="mas-info">
+   <div class="contacto contenedor">
+      <div class="caja-contacto-info">
+         <div class="mas-info">
             <ul class="mas-info-contacto">
+               <li>
+                    <i class="fas fa-phone"></i>
+                    998 577 5390
+                </li>
                 <li>
                     <i class="fas fa-envelope"></i>
                     info@dwebcancun.com
                 </li>
-                <li class="num">
-                    <i class="fas fa-phone"></i>
-                    998 577 5390
-                </li>
+
                 <li>
                     <i class="fas fa-home"></i>
                     Cancun Quintana Roo,México sm 70
                 </li>
             </ul>
-        </div>
-    </div>
-    <div class="caja-contacto-form">
-        <div class="contenedor-form">
+         </div>
+      </div>
+      <div class="caja-contacto-form">
+         <div class="contenedor-form">
             <span>Mas información</span>
             <p>Solicita tu cotizacion en nuestro formulario de contacto con gusto estamos para apoyarte y resolver tus dudas.</p>
             <form method="post" action="/form" autocomplete="off">
@@ -50,7 +51,6 @@
                </div>
                <input  type="submit" value="Enviar Mensaje">
             </form>
-        </div>
-    </div>
-
-</div>
+         </div>
+      </div>
+   </div>

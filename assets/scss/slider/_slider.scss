@@ -12,20 +12,16 @@
    .contenido-hero{
        flex: 1;
        h1{
-           font-weight: 400;
-           font-size: 2.5rem;
-           margin: 1rem;
-           color: v.$blanco;
-           
-       }
-       p{
+            margin: 1rem;
+            color: v.$blanco;
+        }
+        p{
            font-size: 1.2rem;
            margin: 1rem;
-       }
+        }
        @include m.tablet(){
            h1{
                margin: 1rem;
-
            }
            p{
                margin: 1rem;

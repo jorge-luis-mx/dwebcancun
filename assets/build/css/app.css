@@ -355,9 +355,29 @@ body {
 }
 
 h1 {
-  font-size: 2rem;
+  font-size: 2.5rem;
   line-height: 2.5rem;
-  color: #333;
+  color: #333333;
+  font-weight: 400;
+}
+
+h2 {
+  font-size: 2.2rem;
+  font-weight: normal;
+  color: #333333;
+  margin: 1rem;
+}
+
+h3 {
+  font-size: 1.3rem;
+  color: #333333;
+  font-weight: 500;
+}
+
+h4 {
+  font-size: 1.5rem;
+  color: white;
+  font-weight: normal;
 }
 
 .contenedor {
@@ -494,8 +514,6 @@ h1 {
   flex: 1;
 }
 .hero .contenido-hero h1 {
-  font-weight: 400;
-  font-size: 2.5rem;
   margin: 1rem;
   color: #ffffff;
 }
@@ -605,8 +623,6 @@ h1 {
   flex: 0 0 100%;
 }
 .info-web .informacion-web h3 {
-  font-size: 1.3rem;
-  color: #333;
   margin: 1rem;
 }
 .info-web .informacion-web p {
@@ -648,12 +664,6 @@ h1 {
   flex-direction: column;
   justify-content: center;
 }
-.responsibe .contenedor-responsibe .contenido-responsibe h2 {
-  font-weight: 400;
-  font-size: 2.2rem;
-  color: white;
-  margin: 1rem;
-}
 .responsibe .contenedor-responsibe .contenido-responsibe p {
   font-size: 1rem;
   line-height: 1.5rem;
@@ -670,9 +680,6 @@ h1 {
 }
 .responsibe .contenedor-responsibe .contenido-responsibe h4 {
   margin: 1rem;
-  color: white;
-  font-weight: normal;
-  font-size: 1.5rem;
 }
 .responsibe .contenedor-responsibe .contenido-responsibe ul li {
   line-height: 1.5rem;
@@ -787,9 +794,10 @@ h1 {
   background: linear-gradient(to right, #688ab0 0%, #7dbcdf 100%);
   min-height: 10rem;
 }
-.banner .contenido-banner h2 {
+.banner .contenido-banner span {
   color: #ffffff;
   margin: 1rem;
+  font-size: 1.5rem;
 }
 
 .contacto {
@@ -797,11 +805,33 @@ h1 {
   justify-content: space-between;
   flex-wrap: wrap;
 }
+.contacto .caja-contacto-info .mas-info-contacto {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  margin-top: 1rem;
+}
+.contacto .caja-contacto-info .mas-info-contacto li {
+  margin-top: 1rem;
+  display: inline;
+  margin: 0px 25px 0px 0px;
+}
+.contacto .caja-contacto-info .mas-info-contacto li .fa-phone, .contacto .caja-contacto-info .mas-info-contacto li .fa-envelope, .contacto .caja-contacto-info .mas-info-contacto li .fa-home {
+  font-size: 1.5rem;
+}
 .contacto .caja-contacto-form {
   flex: 0 0 100%;
 }
 .contacto .caja-contacto-form .contenedor-form {
-  margin: 1rem;
+  margin-top: 2rem;
+}
+.contacto .caja-contacto-form .contenedor-form span {
+  font-size: 1.8rem;
+  font-weight: 600;
+}
+.contacto .caja-contacto-form .contenedor-form form {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  padding: 1rem;
 }
 .contacto .caja-contacto-form .input-group {
   margin-top: 1.5rem;

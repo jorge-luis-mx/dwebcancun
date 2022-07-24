@@ -7,9 +7,9 @@
             <img src="../../../assets/img/servicio-2.png" alt="">
         </div>
         <div class="caja-nosotros-info">
-            <h4>Mision</h4>
+            <span>Mision</span>
             <p>Brindar una presencia web potente a los negocios, tanto a nivel local como a nivel global.</p>
-            <h4>vision</h4>
+            <span>vision</span>
             <p>Mantener las cosas bien hechas, con el toque humano que se necesita.</p>
         </div>
     </div>

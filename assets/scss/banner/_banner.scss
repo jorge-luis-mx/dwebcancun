@@ -9,9 +9,10 @@
     @include m.gradiente(v.$secundario,v.$terciario);
    min-height: 10rem;
    .contenido-banner{
-       h2{
+       span{
            color: v.$blanco;
            margin: 1rem;
+           font-size: 1.5rem;
        }
    }
 }

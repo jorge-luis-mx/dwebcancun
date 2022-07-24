@@ -19,6 +19,6 @@ if(isset($_GET['controller'])){
 ?>
 <div class="banner">
     <div class="contenido-banner contenedor">
-        <h2><?=$name;?></h2>
+        <span><?=$name;?></span>
     </div>
 </div>
