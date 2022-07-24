@@ -6,42 +6,61 @@
    padding: 1rem;
    @include m.gradiente(v.$secundario,v.$terciario);
    color: v.$blanco;
-   display: flex;
-   align-items: center;
+
    .iconos{
        display: flex;
        flex-direction: column;
        flex: 1;
-       @include m.desktop(){
-           flex-direction: row;
-       }
-
        .icono{
-           flex: 1;
-           background-position: 5% center !important;
-           @include m.tablet{
-               background-position: 30% center !important;
-           }
-           @include m.desktop{
-               background-position: left center!important;
-           }
-           background-size: 3rem;
-           text-align: center;
+            display: flex;
+            justify-content: flex-start;
+            flex-direction: row;
+            flex: 1;
+            .icono1,.icono2,.icono3,.icono4,.icono5{
+                width: 13%;
+                img{
+                    width: 100%;
+                }
+            }
+            p{
+                margin-left: .5rem;
+            }
 
-           &.icono1{
-               @include m.background-imagen('../../../assets/img/pruebas-icono/responsive.png');
-           }
-           &.icono2{
-               @include m.background-imagen('../../../assets/img/pruebas-icono/paginas-administrables.png');
-           }
-           &.icono3{
-               @include m.background-imagen('../../../assets/img/pruebas-icono/carrito-de-compra.png');
-           }
-           &.icono4{
-               @include m.background-imagen('../../../assets/img/pruebas-icono/seee.png');
-           }
-       }
-   }
+            @include m.tablet(){
+                flex-direction: column;
+                .icono1,.icono2,.icono3,.icono4,.icono5{
+                    width: 28%;
+                    img{
+                        width: 100%;
+                    }
+                }
+                p{
+                    margin-left: 0rem;
+                }
+            }
+            @include m.desktop(){
+                flex-direction: row;
+                .icono1,.icono2,.icono3,.icono4,.icono5{
+                    width: 22%;
+                    img{
+                        width: 100%;
+                    }
+                }
+                p{
+                    margin-left: .5rem;
+                    font-size: 1rem;
+                }
+            }
+        }
+        @include m.tablet(){
+            flex-direction: row;
+        }
+        @include m.desktop(){
+            flex-direction: row;
+
+        }
+    }
+
 }
 
 

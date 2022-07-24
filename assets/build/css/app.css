@@ -393,6 +393,14 @@ h4 {
   text-align: center;
 }
 
+.mostrarMenuMovil {
+  left: 0 !important;
+}
+
+.quitarMenuMovil {
+  left: -100% !important;
+}
+
 .menu_nav {
   position: fixed;
   left: 0;
@@ -472,7 +480,7 @@ h4 {
     background: rgba(0, 0, 0, 0.7);
     height: 200vh;
     width: 100%;
-    top: 85px;
+    top: 100px;
     left: -100%;
     z-index: 1000;
   }
@@ -535,54 +543,65 @@ h4 {
   padding: 1rem;
   background: linear-gradient(to right, #688ab0 0%, #7dbcdf 100%);
   color: #ffffff;
-  display: flex;
-  align-items: center;
 }
 .barra .iconos {
   display: flex;
   flex-direction: column;
   flex: 1;
 }
+.barra .iconos .icono {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: row;
+  flex: 1;
+}
+.barra .iconos .icono .icono1, .barra .iconos .icono .icono2, .barra .iconos .icono .icono3, .barra .iconos .icono .icono4, .barra .iconos .icono .icono5 {
+  width: 13%;
+}
+.barra .iconos .icono .icono1 img, .barra .iconos .icono .icono2 img, .barra .iconos .icono .icono3 img, .barra .iconos .icono .icono4 img, .barra .iconos .icono .icono5 img {
+  width: 100%;
+}
+.barra .iconos .icono p {
+  margin-left: 0.5rem;
+}
+@media (min-width: 768px) {
+  .barra .iconos .icono {
+    flex-direction: column;
+  }
+  .barra .iconos .icono .icono1, .barra .iconos .icono .icono2, .barra .iconos .icono .icono3, .barra .iconos .icono .icono4, .barra .iconos .icono .icono5 {
+    width: 28%;
+  }
+  .barra .iconos .icono .icono1 img, .barra .iconos .icono .icono2 img, .barra .iconos .icono .icono3 img, .barra .iconos .icono .icono4 img, .barra .iconos .icono .icono5 img {
+    width: 100%;
+  }
+  .barra .iconos .icono p {
+    margin-left: 0rem;
+  }
+}
 @media (min-width: 1024px) {
+  .barra .iconos .icono {
+    flex-direction: row;
+  }
+  .barra .iconos .icono .icono1, .barra .iconos .icono .icono2, .barra .iconos .icono .icono3, .barra .iconos .icono .icono4, .barra .iconos .icono .icono5 {
+    width: 22%;
+  }
+  .barra .iconos .icono .icono1 img, .barra .iconos .icono .icono2 img, .barra .iconos .icono .icono3 img, .barra .iconos .icono .icono4 img, .barra .iconos .icono .icono5 img {
+    width: 100%;
+  }
+  .barra .iconos .icono p {
+    margin-left: 0.5rem;
+    font-size: 1rem;
+  }
+}
+@media (min-width: 768px) {
   .barra .iconos {
     flex-direction: row;
   }
 }
-.barra .iconos .icono {
-  flex: 1;
-  background-position: 5% center !important;
-  background-size: 3rem;
-  text-align: center;
-}
-@media (min-width: 768px) {
-  .barra .iconos .icono {
-    background-position: 30% center !important;
-  }
-}
 @media (min-width: 1024px) {
-  .barra .iconos .icono {
-    background-position: left center !important;
+  .barra .iconos {
+    flex-direction: row;
   }
-}
-.barra .iconos .icono.icono1 {
-  background-image: url("../../../assets/img/pruebas-icono/responsive.png");
-  background-repeat: no-repeat;
-  background-position: center center;
-}
-.barra .iconos .icono.icono2 {
-  background-image: url("../../../assets/img/pruebas-icono/paginas-administrables.png");
-  background-repeat: no-repeat;
-  background-position: center center;
-}
-.barra .iconos .icono.icono3 {
-  background-image: url("../../../assets/img/pruebas-icono/carrito-de-compra.png");
-  background-repeat: no-repeat;
-  background-position: center center;
-}
-.barra .iconos .icono.icono4 {
-  background-image: url("../../../assets/img/pruebas-icono/seee.png");
-  background-repeat: no-repeat;
-  background-position: center center;
 }
 
 .title-web {
@@ -783,6 +802,48 @@ h4 {
   text-align: justify;
 }
 .somos span, .somos p, .somos .btnSomos {
+  margin: 1rem;
+}
+
+.servicios {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+.servicios .contenedor-servicio {
+  background-color: black;
+}
+@media (min-width: 480px) {
+  .servicios .contenedor-servicio {
+    flex: 0 0 46%;
+    margin: 0.5rem;
+  }
+}
+@media (min-width: 768px) {
+  .servicios .contenedor-servicio {
+    flex: 0 0 45.8%;
+    margin: 0.8rem;
+  }
+}
+@media (min-width: 1024px) {
+  .servicios .contenedor-servicio {
+    flex: 0 0 30%;
+    margin: 1rem;
+  }
+}
+.servicios .caja-servicio .caja-icono {
+  margin: 1rem;
+}
+.servicios .caja-servicio .fa-file-signature, .servicios .caja-servicio .fa-globe {
+  font-size: 5rem;
+  color: white;
+}
+.servicios .caja-servicio h3 {
+  color: white;
+  margin: 1rem;
+}
+.servicios .caja-servicio p {
+  color: white;
   margin: 1rem;
 }
 

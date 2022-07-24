@@ -5,7 +5,7 @@
         <div class="caja-servicio">
             <div class="caja-icono">
                 <div class="icono">
-                    <img src="../../../assets/img/pruebas-icono/responsive.png" alt="">
+                    <img src="<?=base_url?>assets/img/pruebas-icono/responsive.png" alt="">
                 </div>
             </div>
             <h3>Diseño web responsivo</h3>
@@ -16,7 +16,7 @@
         <div class="caja-servicio">
             <div class="caja-icono">
                 <div class="icono">
-                    <img src="../../../assets/img/pruebas-icono/paginas-administrables.png" alt="">
+                    <img src="<?=base_url?>assets/img/pruebas-icono/paginas-administrables.png" alt="">
                 </div>
             </div>
             <h3>Contenido administrable</h3>
@@ -27,7 +27,7 @@
         <div class="caja-servicio">
             <div class="caja-icono">
                 <div class="icono">
-                    <img src="../../../assets/img/pruebas-icono/carrito-de-compra.png" alt="">
+                    <img src="<?=base_url?>assets/img/pruebas-icono/carrito-de-compra.png" alt="">
                 </div>
             </div>
             <h3>Tienda virtual</h3>
@@ -38,7 +38,7 @@
         <div class="caja-servicio">
             <div class="caja-icono">
                 <div class="icono">
-                    <img src="../../../assets/img/pruebas-icono/seee.png" alt="">
+                    <i class="fas fa-globe"></i>
                 </div>
             </div>
             <h3>SEO & SEM</h3>
@@ -49,7 +49,7 @@
         <div class="caja-servicio">
             <div class="caja-icono">
                 <div class="icono">
-                    <img src="../../../assets/img/pruebas-icono/seee.png" alt="">
+                    <i class="fas fa-file-signature"></i>
                 </div>
             </div>
             <h3>Creación de contenido</h3>

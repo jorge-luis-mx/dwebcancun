@@ -7,7 +7,6 @@ const autoprefixer= require('autoprefixer');
 
 
 function css(done){
-
    //compilar sass
    //pasos: 1 -identificar el archivo, 2 -compilarla, 3 -guardar el .css
    src('assets/scss/app.scss')
@@ -19,8 +18,6 @@ function css(done){
 
 function dev(){
    watch('assets/scss/**/*.scss',css)
-   
-
 }
 
 

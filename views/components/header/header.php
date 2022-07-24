@@ -4,7 +4,7 @@
             <img src="<?=base_url?>assets/img/septimo-logo.png" id="logo">
         </div>
         <div class="icon-menu">
-            <a  id="btn-menu" class="btn-menu" (click)="btnMenu()">
+            <a  id="btn-menu" class="btn-menu">
                 <span class="fas fa-bars" ></span>
             </a>
         </div>

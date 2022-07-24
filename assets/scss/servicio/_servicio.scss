@@ -1,0 +1,44 @@
+@use 'base/variables' as v;
+@use 'base/mixins' as m;
+
+.servicios{
+   display: flex;
+   justify-content: flex-start;
+   flex-wrap: wrap;
+
+   .contenedor-servicio{
+      background-color: black;
+      @include m.telefono(){
+          flex: 0 0 calc(46%);
+          margin:.5rem;
+      }
+      @include m.tablet(){
+          flex: 0 0 calc(45.8%);
+          margin:.8rem;
+
+      }
+      @include m.desktop(){
+          flex: 0 0 calc(30%);
+          margin:1rem;
+      }
+   }
+   .caja-servicio{
+      .caja-icono{
+         margin: 1rem;
+      }
+      .fa-file-signature,.fa-globe{
+         font-size: 5rem;
+         color: white;
+      }
+      h3{
+         color: white;
+         margin: 1rem;
+      }
+      p{
+         color: white;
+         margin: 1rem;
+      }
+   }
+
+
+}

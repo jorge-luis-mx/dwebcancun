@@ -2,19 +2,37 @@
 
 <div class="barra">
     <div class="iconos contenedor">
-            <div class="icono icono1">
-                <p>Diseño responsivo</p>
+        <div class="icono">
+            <div class="icono1">
+                <img src="<?=base_url?>assets/img/pruebas-icono/responsive.png" alt="">
             </div>
-            <div class="icono icono2">
-                <p>Contenido administrable</p>
+            <p>Diseño responsivo</p>
+        </div>
+        <div class="icono">
+            <div class="icono2">
+                <img src="<?=base_url?>assets/img/pruebas-icono/paginas-administrables.png" alt="">
             </div>
-            <div class="icono icono3">
-                <p>Tienda Virtual <br>
-                </p>
+            <p>Contenido administrable</p>
+        </div>
+        <div class="icono">
+            <div class="icono3">
+                <img src="<?=base_url?>assets/img/pruebas-icono/carrito-de-compra.png" alt="">
             </div>
-            <div class="icono icono4">
-                <p>Optimización SEO</p>
+            <p>Tienda Virtual</p>
+        </div>
+        <div class="icono">
+            <div class="icono5">
+                <img src="<?=base_url?>assets/img/pruebas-icono/contenido-web2.png" alt="">
             </div>
+            <p class="icon-font">Creación de contenido</p>
+        </div>
+        <div class="icono">
+            <div class="icono4">
+                <img src="<?=base_url?>assets/img/pruebas-icono/seo4.png" alt="">
+            </div>
+            <p class="icon-font">Optimización SEO</p>
+        </div>
+
     </div>
 </div>
 
