@@ -9,31 +9,37 @@
     $routes = new Route();
     $arrayRuta=$routes->route();
     
-    $metaDinamic=null;
+    $metaTitle=null;
+    $metaDescription=null;
+    
     if(!isset($_GET['controller'])){
-        $metaDinamic=$metas[0]['title'];
+        $metaTitle=$metas[0]['title'];
+        $metaDescription=$metas[0]['description'];
     }
+
     if(isset($_GET['controller'])){
         if (in_array($_GET['controller'], $arrayRuta)) {
             foreach ($metas as $key => $value) {
                if ($_GET['controller']==$value['name']) {
-                $metaDinamic=$value['title'];
+                $metaTitle=$value['title'];
+                $metaDescription=$value['description'];
                }
             }
         }else{
-            $metaDinamic=$metas[0]['title'];
+            $metaTitle=$metas[0]['title'];
+            $metaDescription=$metas[0]['description'];
         }
     }
 
 ?>
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title><?=$metaDinamic?></title>
-    <meta name="description" content=""/>
+    <title><?=$metaTitle?></title>
+    <meta name="description" content="<?=$metaDescription?>"/>
     <meta name="keywords" content="palabra clave 1, palabra clave 2, palabra clave 3"/>
     <link rel="icon" type="image/x-icon" href="favicon.ico">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">

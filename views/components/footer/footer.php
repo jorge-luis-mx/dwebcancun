@@ -14,14 +14,14 @@
                         <a class="enlace" href="#"><i class="fas fa-phone"></i> 9985772390</a>
                     </nav>
                     <nav id="secundaria" class="menu">
-                        <a class="enlace principal">La empresa</a>
+                        <a class="enlace principal"href="#">La empresa</a>
                         <a class="enlace" href="#">¿QUIENES SOMOS?</a>
                         <a class="enlace" href="#">Blog</a>
                     </nav>
                     <nav id="secundaria" class="menu">
-                        <a class="enlace principal">Siguenos</a>
-                        <a class="enlace" href="#"><i class="fab fa-facebook-f"></i></a>
-                        <a class="enlace" href="#"><i class="fab fa-instagram"></i></a>
+                        <a class="enlace principal" href="#">Siguenos</a>
+                        <a class="enlace" href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a>
+                        <a class="enlace" href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a>
                     </nav>
             </div>
         </div>

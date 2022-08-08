@@ -7,7 +7,7 @@
    flex-wrap: wrap;
 
    .contenedor-servicio{
-      background-color: black;
+      background-color:v.$colorPrincipal;
       @include m.telefono(){
           flex: 0 0 calc(46%);
           margin:.5rem;

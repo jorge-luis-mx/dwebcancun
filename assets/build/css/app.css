@@ -670,7 +670,7 @@ h4 {
   margin-top: 1.5rem;
   min-height: 24rem;
   display: flex;
-  background-color: #688ab0;
+  background-color: #333333;
 }
 .responsibe .contenedor-responsibe {
   display: flex;
@@ -811,7 +811,7 @@ h4 {
   flex-wrap: wrap;
 }
 .servicios .contenedor-servicio {
-  background-color: black;
+  background-color: #333333;
 }
 @media (min-width: 480px) {
   .servicios .contenedor-servicio {
@@ -845,6 +845,61 @@ h4 {
 .servicios .caja-servicio p {
   color: white;
   margin: 1rem;
+}
+
+.nosotros .somos {
+  margin: 0.8rem;
+}
+
+.contenedor-nosotros {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+.contenedor-nosotros .nosotros-content {
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+  margin: 0.8rem;
+  margin-bottom: 2rem;
+}
+@media (min-width: 480px) {
+  .contenedor-nosotros .nosotros-content {
+    flex: 0 0 46%;
+  }
+}
+@media (min-width: 768px) {
+  .contenedor-nosotros .nosotros-content {
+    flex: 0 0 45.8%;
+  }
+}
+@media (min-width: 1024px) {
+  .contenedor-nosotros .nosotros-content {
+    flex: 0 0 35%;
+  }
+}
+.contenedor-nosotros .nosotros-content .caja-nosotros {
+  margin: 0.8rem;
+}
+.contenedor-nosotros .nosotros-content .caja-nosotros span {
+  font-size: 1.5rem;
+}
+.contenedor-nosotros .nosotros-content .caja-nosotros p {
+  margin-top: 1rem;
+}
+.contenedor-nosotros .nosotros-content .caja-nosotros hr.solid {
+  border-top: 4px solid black;
+  width: 60px;
+  margin: 0;
+  margin-bottom: -12px;
+  position: relative;
+}
+.contenedor-nosotros .nosotros-content .caja-nosotros .arrow {
+  border: solid black;
+  border-width: 0px 4px 4px 0px;
+  display: inline-block;
+  padding: 3px;
+  -webkit-transform: rotate(-45deg);
+          transform: rotate(-45deg);
+  margin-left: 51px;
 }
 
 .banner {

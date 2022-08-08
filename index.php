@@ -11,13 +11,13 @@ require_once 'views/components/header/header.php';
 $routes = new Route();
 $arrayRuta=$routes->route();
 
-//sin url
+//sin url==(dominio.com)
 if(!isset($_GET['controller'])){
 	$nombre_controlador = controller_default;
 	$controlador = new $nombre_controlador();
 	$controlador->index();
 }
-//con url
+//con url o rutas
 if(isset($_GET['controller'])){
 	if (in_array($_GET['controller'], $arrayRuta)) {
 		$urlDinamica=$_GET['controller']=='inicio'?'index':$_GET['controller'];
@@ -31,7 +31,6 @@ if(isset($_GET['controller'])){
 
 
 function show_error(){
-	$ruta='inicio';
 	$nombre_controlador = controller_default;
 	$controlador = new $nombre_controlador();
 	$controlador->index();

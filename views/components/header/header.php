@@ -1,12 +1,12 @@
 <div class="menu_nav">
     <header id="header" class="header contenedor">
         <div class="logo">
-            <img src="<?=base_url?>assets/img/septimo-logo.png" id="logo">
+            <img src="<?=base_url?>assets/img/septimo-logo.png" id="logo" title="dwebcancun" alt="logo dwebcancun">
         </div>
         <div class="icon-menu">
-            <a  id="btn-menu" class="btn-menu">
+            <span  id="btn-menu" class="btn-menu">
                 <span class="fas fa-bars" ></span>
-            </a>
+            </span>
         </div>
         <div class="menu-link menu-movil">
             <ul>

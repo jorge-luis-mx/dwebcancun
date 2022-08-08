@@ -44,7 +44,7 @@
 
 <div class="info-web contenedor">
     <div class="informacion-web-img">
-        <img src="<?=base_url?>assets/img/servicios.png">
+        <img src="<?=base_url?>assets/img/servicios.png" title="diseño web cancun" alt="imagen de los diseños web cancun">
     </div>
     <div class="informacion-web">
         <p>Otorgarle una fuerte presencia en línea a tu negocio con un sitio web atractivo y funcional. En Realweb, somos especialistas en hacer que tu idea de página web se materialice y alcance los objetivos que estás fijando.</p>
@@ -69,7 +69,7 @@
         </div>
         <div class="img-responsibe">
             <div class="caja-img-responsive">
-                <img src="<?=base_url?>assets/img/mobil-responsibe.png">
+                <img src="<?=base_url?>assets/img/mobil-responsibe.png" title="imagen de diseño web responsivo en cancun"alt="imagen de diseño web responsive en cancun">
             </div>
         </div>
     </div>
