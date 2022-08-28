@@ -12,18 +12,15 @@
                     <i class="fas fa-envelope"></i>
                     info@dwebcancun.com
                 </li>
-
-                <li>
-                    <i class="fas fa-home"></i>
-                    Cancun Quintana Roo,México sm 70
-                </li>
             </ul>
          </div>
       </div>
       <div class="caja-contacto-form">
          <div class="contenedor-form">
-            <span>Mas información</span>
-            <p>Solicita tu cotizacion en nuestro formulario de contacto con gusto estamos para apoyarte y resolver tus dudas.</p>
+            <div>
+               <span>Mas información</span>
+               <p>Solicita tu cotizacion en nuestro formulario de contacto con gusto estamos para apoyarte y resolver tus dudas.</p>
+            </div>
             <form method="post" action="/form" autocomplete="off">
                <div class="input-group">
                   <div class="input-group-prepend">

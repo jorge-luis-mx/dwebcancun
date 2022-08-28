@@ -30,7 +30,7 @@
             <div class="icono4">
                 <img src="<?=base_url?>assets/img/pruebas-icono/seo4.png" alt="">
             </div>
-            <p class="icon-font">Optimización SEO</p>
+            <p class="icon-font">SEO & SEM</p>
         </div>
 
     </div>

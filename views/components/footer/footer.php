@@ -6,7 +6,7 @@
                         <a class="enlace" href="#">Diseño web</a>
                         <a class="enlace" href="#">Web Administrable</a>
                         <a class="enlace" href="#">Tienda virtual</a>
-                        <a class="enlace" href="#">Seo</a>
+                        <a class="enlace" href="#">Seo & Sem</a>
                     </nav>
                     <nav id="secundaria" class="menu">
                         <a class="enlace principal" href="#">Contacto</a>
@@ -14,9 +14,9 @@
                         <a class="enlace" href="#"><i class="fas fa-phone"></i> 9985772390</a>
                     </nav>
                     <nav id="secundaria" class="menu">
-                        <a class="enlace principal"href="#">La empresa</a>
-                        <a class="enlace" href="#">¿QUIENES SOMOS?</a>
+                        <a class="enlace principal"href="#">Nosotros</a>
                         <a class="enlace" href="#">Blog</a>
+                        <a class="enlace" href="#">Portafolio</a>
                     </nav>
                     <nav id="secundaria" class="menu">
                         <a class="enlace principal" href="#">Siguenos</a>
