@@ -941,11 +941,18 @@ h4 {
 }
 .contacto .caja-contacto-form {
   flex: 0 0 100%;
+  display: flex;
+  justify-content: space-between;
 }
 .contacto .caja-contacto-form .contenedor-form {
-  margin-top: 2rem;
+  margin-bottom: 4rem;
+  flex: 0 0 60%;
 }
-.contacto .caja-contacto-form .contenedor-form span {
+.contacto .caja-contacto-form .contenedor-form .info-contact {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+.contacto .caja-contacto-form .contenedor-form .info-contact span {
   font-size: 1.5rem;
   font-weight: 600;
 }
@@ -1001,6 +1008,13 @@ h4 {
   color: #fff;
   margin-top: 20px;
   cursor: pointer;
+}
+.contacto .caja-contacto-form .comunicate {
+  flex: 0 0 40%;
+}
+.contacto .caja-contacto-form .comunicate img {
+  margin-top: 2rem;
+  width: 100%;
 }
 
 .footer {
