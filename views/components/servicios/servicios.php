@@ -30,7 +30,7 @@
                     <img src="<?=base_url?>assets/img/pruebas-icono/carrito-de-compra.png" alt="">
                 </div>
             </div>
-            <h3>Tienda virtual</h3>
+            <h3>Tienda online</h3>
             <p>Muestra y vende tus productos a través de tu sitio web. Creamos sistemas de carrito y cobro para tu tienda en línea.</p>
         </div>
     </div>
