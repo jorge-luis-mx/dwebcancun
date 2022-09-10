@@ -9,9 +9,10 @@
                         <a href="#" class="enlace">Seo & Sem</a>
                     </nav>
                     <nav id="secundaria" class="menu">
-                        <a href="#" class="enlace principal">Nosotros</a>
-                        <a href="#" class="enlace">Blog</a>
+                        <a href="#" class="enlace principal">Información</a>
+                        <a href="#" class="enlace">Nosotros</a>
                         <a href="#" class="enlace">Portafolio</a>
+                        <a href="#" class="enlace">Blog</a>
                     </nav>
                     <nav id="secundaria" class="menu">
                         <a href="#" class="enlace principal">Contacto</a>
