@@ -1,6 +1,6 @@
 <div class="hero">
     <div class="contenido-hero contenedor">
-            <h1>Dwebcancun</h1>
-            <p>Sitios web a la medida</p>
+            <h1>DevsCun</h1>
+            <h2 style="color:white">Páginas web a la medida</h2>
     </div>
 </div>

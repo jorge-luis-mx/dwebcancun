@@ -1,7 +1,5 @@
 <?php
 
-define("base_url", "http://localhost/paginasweb/dwebcancun/");
+define("base_url", "http://localhost/proyectos/dwebcun/dwebcancun/");
 define("controller_default", "inicioController");
 define("action_default", "index");
-
-
