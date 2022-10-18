@@ -18,7 +18,7 @@
             <div class="icono3">
                 <img src="<?=base_url?>assets/img/pruebas-icono/carrito-de-compra.png" alt="">
             </div>
-            <p>Tienda Virtual</p>
+            <p>Tienda online</p>
         </div>
         <div class="icono">
             <div class="icono5">
@@ -47,9 +47,15 @@
         <img src="<?=base_url?>assets/img/servicios.png" title="diseño web cancun" alt="imagen de los diseños web cancun">
     </div>
     <div class="informacion-web">
+<<<<<<< HEAD
         <p>Otórgale una fuerte presencia en línea a tu negocio con un sitio web atractivo y funcional. En <strong>DevsCun</strong>, somos especialistas en hacer que tu idea de página web se materialice y alcance los objetivos que estás fijando.</p>
         <h2>Optimización SEO y creación de contenido</h2>
         <p>Además de crear tu web, la posicionamos para las búsquedas más afines a tu producto o servicio y lo mantenemos actualizado con las novedades de tu negocio e industria.</p>
+=======
+        <p>Otorgarle una fuerte presencia online a tu negocio con un sitio web atractivo y funcional. En Realweb, somos especialistas en hacer que tu idea de página web se materialice y alcance los objetivos que estás fijando.</p>
+        <h3>Optimización SEO y creación de contenido</h3>
+        <p>Posicionamos tu web para las búsquedas más afines a tu producto o servicio y lo mantenemos actualizado con las novedades de tu negocio e industria.</p>
+>>>>>>> 9aeea9d35afd6788a8e7809808d150665b3dd8c1
     </div>
 </div>
 

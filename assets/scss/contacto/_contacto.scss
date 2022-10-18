@@ -7,6 +7,7 @@
    flex-wrap: wrap;
    .caja-contacto-info{
         flex: 0 0 calc(100%);
+
         .mas-info-contacto{
             text-align: center;
             list-style: none;
@@ -24,13 +25,21 @@
         }
    }
    .caja-contacto-form{
-       flex: 0 0 calc(100%);
+        flex: 0 0 calc(100%);
+       display: flex;
+       justify-content: space-between;
        .contenedor-form{
-            margin-top: 2rem;
-            span{
-                font-size: 1.5rem;
-                font-weight: 600;
+            margin-bottom: 4rem;
+            flex: 0 0 calc(60%);
+            .info-contact{
+                margin-top: 2rem;
+                margin-bottom: 2rem;
+                span{
+                    font-size: 1.5rem;
+                    font-weight: 600;
+                }
             }
+
            form{
             box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
             width: 540px;
@@ -87,6 +96,13 @@
                 color: #fff;
                 margin-top: 20px;
                 cursor: pointer;
+            }
+        }
+        .comunicate{
+            flex: 0 0 calc(40%);
+            img{
+                margin-top: 2rem;
+                width:100%;
             }
         }
 
