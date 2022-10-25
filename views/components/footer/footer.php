@@ -2,22 +2,22 @@
         <div class="contenedor">
             <div class="contenedor-footer">
                     <nav id="secundaria" class="menu">
-                        <a href="#" class="enlace principal">Servicios</a>
-                        <a href="#" class="enlace">Diseño web</a>
-                        <a href="#" class="enlace">Web Administrable</a>
-                        <a href="#" class="enlace">Tienda virtual</a>
-                        <a href="#" class="enlace">Seo & Sem</a>
+                        <a href="servicios" class="enlace principal">Servicios</a>
+                        <a href="servicios" class="enlace">Diseño web</a>
+                        <a href="servicios" class="enlace">Web Administrable</a>
+                        <a href="servicios" class="enlace">Tienda virtual</a>
+                        <a href="servicios" class="enlace">Seo & Sem</a>
                     </nav>
                     <nav id="secundaria" class="menu">
                         <a href="#" class="enlace principal">Información</a>
-                        <a href="#" class="enlace">Nosotros</a>
-                        <a href="#" class="enlace">Portafolio</a>
-                        <a href="#" class="enlace">Blog</a>
+                        <a href="nosotros" class="enlace">Nosotros</a>
+                        <!-- <a href="#" class="enlace">Portafolio</a>
+                        <a href="#" class="enlace">Blog</a> -->
                     </nav>
                     <nav id="secundaria" class="menu">
                         <a href="#" class="enlace principal">Contacto</a>
-                        <a href="#" class="enlace"><i class="fas fa-envelope"></i> info@dwebcancun.com</a>
-                        <a href="#" class="enlace"><i class="fas fa-phone"></i> 9985772390</a>
+                        <a href="#" class="enlace"><i class="fas fa-envelope"></i> info@devscun.com</a>
+                        <a href="#" class="enlace"><i class="fas fa-phone"></i> 9984085290</a>
                     </nav>
                     <nav id="secundaria" class="menu">
                         <a href="#" class="enlace principal">Siguenos</a>

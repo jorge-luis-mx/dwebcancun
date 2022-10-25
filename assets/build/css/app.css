@@ -810,46 +810,65 @@ h4 {
   margin: 1rem;
 }
 
-.servicios {
+.servicios .slug-service {
+  font-size: 1.5rem;
+}
+.servicios .service-container {
   display: flex;
   justify-content: flex-start;
   flex-wrap: wrap;
 }
-.servicios .contenedor-servicio {
-  background-color: #333333;
-}
 @media (min-width: 480px) {
-  .servicios .contenedor-servicio {
+  .servicios .service-container .contenedor-servicio {
     flex: 0 0 46%;
-    margin: 0.5rem;
   }
 }
 @media (min-width: 768px) {
-  .servicios .contenedor-servicio {
+  .servicios .service-container .contenedor-servicio {
     flex: 0 0 45.8%;
-    margin: 0.8rem;
   }
 }
 @media (min-width: 1024px) {
-  .servicios .contenedor-servicio {
-    flex: 0 0 30%;
-    margin: 1rem;
+  .servicios .service-container .contenedor-servicio {
+    flex: 1 0 31%;
+  }
+  .servicios .service-container .contenedor-servicio .caja-icono {
+    display: flex;
+    justify-content: center;
+    background-color: #7dbcdf;
+    align-items: center;
+    width: 70px;
+    height: 70px;
+    border-radius: 100%;
+  }
+  .servicios .service-container .contenedor-servicio .caja-icono .icono {
+    width: 30px;
+    height: 30px;
+  }
+  .servicios .service-container .contenedor-servicio .caja-icono .icono img {
+    width: 100%;
+  }
+  .servicios .service-container .contenedor-servicio .caja-icono:hover {
+    background-color: #5b8bb1;
+    cursor: pointer;
   }
 }
-.servicios .caja-servicio .caja-icono {
-  margin: 1rem;
-}
-.servicios .caja-servicio .fa-file-signature, .servicios .caja-servicio .fa-globe {
+.servicios .service-container .caja-servicio .fa-file-signature, .servicios .service-container .caja-servicio .fa-globe {
   font-size: 5rem;
-  color: white;
+  color: black;
 }
-.servicios .caja-servicio h3 {
-  color: white;
-  margin: 1rem;
+.servicios .service-container .caja-servicio h3 {
+  color: black;
 }
-.servicios .caja-servicio p {
-  color: white;
-  margin: 1rem;
+.servicios .service-container .caja-servicio p {
+  color: black;
+}
+.servicios .more-info-service ul {
+  padding-left: 1rem;
+  margin: 0;
+}
+.servicios .more-info-service ul li {
+  margin-top: 1rem;
 }
 
 .nosotros .somos {

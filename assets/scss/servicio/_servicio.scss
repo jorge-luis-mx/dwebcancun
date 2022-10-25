@@ -2,43 +2,76 @@
 @use 'base/mixins' as m;
 
 .servicios{
-   display: flex;
-   justify-content: flex-start;
-   flex-wrap: wrap;
+   .slug-service{
+      font-size: 1.5rem;
+   }
+   .service-container{
+      display: flex;
+      justify-content: flex-start;
+      flex-wrap: wrap;
+   
+      .contenedor-servicio{
+        
+         @include m.telefono(){
+             flex: 0 0 calc(46%);
 
-   .contenedor-servicio{
-      background-color:v.$colorPrincipal;
-      @include m.telefono(){
-          flex: 0 0 calc(46%);
-          margin:.5rem;
-      }
-      @include m.tablet(){
-          flex: 0 0 calc(45.8%);
-          margin:.8rem;
+         }
+         @include m.tablet(){
+             flex: 0 0 calc(45.8%);
 
+   
+         }
+         @include m.desktop(){
+             flex: 1 0 calc(31%);
+            .caja-icono{
+               display: flex;
+               justify-content: center;
+               background-color: #7dbcdf;
+               align-items: center;
+               width: 70px;
+               height: 70px;
+               border-radius: 100%;
+               .icono{
+                  width: 30px;
+                  height: 30px;
+                  img{
+                     width: 100%;
+                  }
+               }
+
+            }
+            .caja-icono:hover{
+               background-color: #5b8bb1;
+               cursor: pointer;
+            }
+
+         }
       }
-      @include m.desktop(){
-          flex: 0 0 calc(30%);
-          margin:1rem;
+      .caja-servicio{
+   
+         .fa-file-signature,.fa-globe{
+            font-size: 5rem;
+            color: black;
+         }
+         h3{
+            color: black;
+           
+         }
+         p{
+            color: black;
+           
+         }
       }
    }
-   .caja-servicio{
-      .caja-icono{
-         margin: 1rem;
+
+.more-info-service{
+   ul{
+      padding-left: 1rem;
+      margin: 0;
+      li{
+         margin-top: 1rem;
       }
-      .fa-file-signature,.fa-globe{
-         font-size: 5rem;
-         color: white;
-      }
-      h3{
-         color: white;
-         margin: 1rem;
-      }
-      p{
-         color: white;
-         margin: 1rem;
-      }
+
    }
-
-
+}
 }
