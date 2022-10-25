@@ -19,9 +19,12 @@ if(!isset($_GET['controller'])){
 }
 //con url o rutas
 if(isset($_GET['controller'])){
+
 	if (in_array($_GET['controller'], $arrayRuta)) {
+		
 		$urlDinamica=$_GET['controller']=='inicio'?'index':$_GET['controller'];
 		$nombre_controlador = $_GET['controller'].'Controller';
+		
 		$controlador = new $nombre_controlador();
 		$controlador->$urlDinamica();
 	}else{

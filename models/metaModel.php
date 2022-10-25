@@ -1,29 +1,23 @@
 <?php
 
-class Metas{
-	private $id;
-	private $title;
-	private $description;
-	private $status;
-	private $db;
-	
-	public function __construct() {
-		$this->db = Database::connect();
-	}
-	
-	public function getMetas(){
+	class Metas{
 
-		$res = array();
-		$string="SELECT * FROM meta
-		INNER JOIN categoria ON meta.id_categoriafk=categoria.id_categoria";
-		$stmt = $this->db->query($string);
-		if ($stmt) {
-			while ($exec = $stmt->fetch_assoc()) {
-				 $res[] = $exec;
+		private $con;
+
+		function __construct($con){
+			$this->con = $con;	
+		}
+
+		public function get_metas(){
+			$result = array();
+			$sql= "SELECT * FROM meta INNER JOIN categoria ON meta.id_categoriafk=categoria.id_categoria";
+			$ejecutar= $this->con->executeQuery($sql);
+			if( count($ejecutar)>0 ){
+				$result = $ejecutar;
 			}
-	  }
-      return $res;
-   }
-	
-	
-}
+			return $result;
+		}
+
+	}
+
+?>

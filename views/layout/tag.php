@@ -1,10 +1,13 @@
 <?php 
+
+    require_once 'config/db.php';
     require_once 'models/metaModel.php';
     require_once 'config/route.php';
 
-    //invocamos las metas
-    $Allmeta= new Metas();
-    $metas=$Allmeta->getMetas();
+    $objCon = new Config();
+    $objmetas = new Metas($objCon);
+    $metas=$objmetas->get_metas();
+
     //invocamos nuestra ruta 
     $routes = new Route();
     $arrayRuta=$routes->route();
