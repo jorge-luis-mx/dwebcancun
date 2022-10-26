@@ -41,7 +41,6 @@
             <div class="caja-servicio">
                 <div class="caja-icono">
                     <div class="icono">
-                        <!-- <i class="fas fa-globe"></i> -->
                         <img src="<?=base_url?>assets/img/pruebas-icono/contenido-web2.png" alt="">
                         
                     </div>
@@ -54,7 +53,6 @@
             <div class="caja-servicio">
                 <div class="caja-icono">
                     <div class="icono">
-                        <!-- <i class="fas fa-file-signature"></i> -->
                         <img src="<?=base_url?>assets/img/pruebas-icono/seo4.png" alt="">
                     </div>
                 </div>
@@ -77,13 +75,3 @@
     </div>
 </div>
 
-<!-- <p style="padding: 15px 25px 15px"></p>
-<p style="padding: 15px 25px 15px"></p>
-<p style="padding: 15px 25px 15px"> </p>
-<ul style="padding: 15px 25px 15px">
-    <li style="padding: 15px 25px 15px"></li>
-    <li style="padding: 15px 25px 15px"></li>
-    <li style="padding: 15px 25px 15px"></li>
-    <li style="padding: 15px 25px 15px"></li>
-</ul> -->
-<!-- <p style="padding: 15px 25px 15px"></p> -->

@@ -675,7 +675,7 @@ h4 {
   margin-top: 1.5rem;
   min-height: 24rem;
   display: flex;
-  background-color: #333333;
+  background-color: #3981a3;
 }
 .responsibe .contenedor-responsibe {
   display: flex;
@@ -953,14 +953,16 @@ h4 {
   margin-top: 1rem;
 }
 .contacto .caja-contacto-form .contenedor-form .info-contact span {
-  font-size: 1rem;
+  font-size: 1.5rem;
   font-weight: 600;
 }
 .contacto .caja-contacto-form .contenedor-form .info-contact .more-info-contact {
-  font-size: 1rem;
+  font-size: 1.3rem;
 }
 .contacto .caja-contacto-form .contenedor-form .info-contact form {
   margin-top: 1.5rem;
+  padding: 5rem;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
 }
 .contacto .caja-contacto-form .contenedor-form .info-contact form .inputs {
   display: flex;
