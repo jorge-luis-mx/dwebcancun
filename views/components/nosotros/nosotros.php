@@ -5,14 +5,14 @@
     <div class="contenedor-nosotros">
         <div class="nosotros-content">
             <div class="caja-nosotros">
-                <span><strong>Misión</strong></span>
+                <span>Misión</span>
                 <p>Brindar una presencia web potente a los negocios, tanto a nivel local como a nivel global.</p>
                 <p><hr class="solid"><i class="arrow right"></i></p>
             </div>
         </div>
         <div class="nosotros-content">
             <div class="caja-nosotros">
-                <span><strong>Visión</strong></span>
+                <span>Visión</span>
                 <p>Mantener las cosas bien hechas, con el toque humano que se necesita.</p>
             </div>
         </div>
