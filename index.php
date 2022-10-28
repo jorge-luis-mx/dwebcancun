@@ -3,40 +3,47 @@
 require_once 'autoload.php';
 require_once 'config/db.php';
 require_once 'config/parameters.php';
-require_once 'config/route.php';
 require_once 'views/layout/tag.php';
 require_once 'views/components/header/header.php';
 
-//invocamos nuestra ruta 
-$routes = new Route();
-$arrayRuta=$routes->route();
+$controller=null;
+$controllerMetod=null;
 
-//sin url==(dominio.com)
-if(!isset($_GET['controller'])){
-	$nombre_controlador = controller_default;
-	$controlador = new $nombre_controlador();
-	$controlador->index();
+if(!isset($_GET['route'])){
+	$controller = controller_default;
+	$objController = new $controller();
+	$objController->inicio();
 }
-//con url o rutas
-if(isset($_GET['controller'])){
+if(isset($_GET['route'])){
+	switch ($_GET['route']) {
+		case "servicios-de-paginas-web-cancun":
 
-	if (in_array($_GET['controller'], $arrayRuta)) {
-		
-		$urlDinamica=$_GET['controller']=='inicio'?'index':$_GET['controller'];
-		$nombre_controlador = $_GET['controller'].'Controller';
-		
-		$controlador = new $nombre_controlador();
-		$controlador->$urlDinamica();
-	}else{
-		show_error();
-	}
-}
+			$controller='serviciosController';
+			$controllerMetod='servicios';
+			 break;
+		case "precios-de-paginas-web-cancun":
+			$controller='preciosController';
+			$controllerMetod='precios';
+			 break;
+		case "nosotros-desenamos-paginas-web-cancun":
 
+			$controller='nosotrosController';
+			$controllerMetod='nosotros';
+			break;
+		case "contacto-de-diseno-paginas-web-cancun":
 
-function show_error(){
-	$nombre_controlador = controller_default;
-	$controlador = new $nombre_controlador();
-	$controlador->index();
+			$controller='contactoController';
+			$controllerMetod='contacto';
+			break;
+
+		default:
+			$controller='inicioController';
+			$controllerMetod='inicio';
+  	}
+
+	$objController = new $controller();
+	$objController->$controllerMetod();
+
 }
 
 require_once 'views/components/footer/footer.php';

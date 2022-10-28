@@ -21,9 +21,6 @@
                 }
                 form{
                     margin-top: 1.5rem;
-                    padding: 5rem;
-                    
-                    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
                     .inputs{
                         display: flex;
                         flex-direction: row;
@@ -173,6 +170,8 @@
             justify-content: space-between;
             .contenedor-form{
                 flex: 0 0 calc(60%);
+                padding: 5rem;  
+                box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
                 .info-contact{
                     form{
                         .inputs{
@@ -203,7 +202,7 @@
                 }
             }
             .comunicate{
-                flex: 0 0 calc(40%);
+                flex: 0 0 calc(30%);
                 .caja-contacto-info{
                     .mas-info{
                         margin-top: 1rem;

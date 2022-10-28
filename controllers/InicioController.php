@@ -2,7 +2,7 @@
 
 class inicioController{
 	
-	public function index(){
+	public function inicio(){
 		require_once 'views/components/inicio/inicio.php';
 	}
 

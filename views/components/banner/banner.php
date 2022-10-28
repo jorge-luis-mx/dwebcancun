@@ -1,15 +1,15 @@
 <?php
 $name=null;
-if(isset($_GET['controller'])){
-    switch ($_GET['controller']) {
-        case 'servicios':
+if(isset($_GET['route'])){
+    switch ($_GET['route']) {
+        case "servicios-de-paginas-web-cancun":
             $name='Servicios';
             break;
-        case 'nosotros':
-            $name='Nosotros';
+        case "precios-de-paginas-web-cancun":
+            $name='Precios';
             break;
-        case 'portafolio':
-            $name='Nuestros Portafolio';
+        case "nosotros-desenamos-paginas-web-cancun":
+            $name='Nuestros';
             break;
         default:
             $name='Contactenos';

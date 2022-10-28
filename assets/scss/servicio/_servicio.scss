@@ -4,74 +4,93 @@
 .servicios{
    .slug-service{
       font-size: 1.5rem;
+      color: #333333;
+      text-align: center;
+
+   }
+   @include m.desktop(){
+      .slug-service{
+         text-align: start;
+         font-size: 2rem;
+      }
    }
    .service-container{
       display: flex;
       justify-content: flex-start;
       flex-wrap: wrap;
-   
+      padding: .5rem;
       .contenedor-servicio{
-        
          @include m.telefono(){
-             flex: 0 0 calc(46%);
+            flex: 0 0 calc(46%);
+        }
+        @include m.tablet(){
+            flex: 0 0 calc(45.8%);
 
-         }
-         @include m.tablet(){
-             flex: 0 0 calc(45.8%);
-
-   
-         }
-         @include m.desktop(){
-             flex: 1 0 calc(31%);
-            .caja-icono{
+        }
+        @include m.desktop(){
+            flex: 1 0 calc(31%);
+        }
+        .caja-servicio{
+            h3{
+               color: #333333;
+               text-align: center;
+            }
+            p{
+               text-align: center;
+               font-size: 1rem;
+               line-height: 1.5rem;
+            }
+            @include m.desktop(){
+               h3,p{
+                  text-align: start;
+               }
+            }
+            .item-icono{
                display: flex;
                justify-content: center;
-               background-color: #7dbcdf;
                align-items: center;
-               width: 70px;
-               height: 70px;
-               border-radius: 100%;
-               .icono{
-                  width: 30px;
-                  height: 30px;
-                  img{
-                     width: 100%;
+
+               @include m.desktop(){
+                  display: flex;
+                  justify-content: flex-start;
+                  align-items: flex-start;
+               }
+               .caja-icono{
+                  display: flex;
+                  justify-content: center;
+                  align-items: center;
+                  background-color: #7dbcdf;
+                  width: 90px;
+                  height: 90px;
+                  border-radius: 100%;
+                  .icono{
+                     width: 30px;
+                     height: 30px;
+                     img{
+                        width: 100%;
+                     }
                   }
                }
-
+               .caja-icono:hover{
+                  background-color: #5b8bb1;
+                  cursor: pointer;
+               }
             }
-            .caja-icono:hover{
-               background-color: #5b8bb1;
-               cursor: pointer;
-            }
-
          }
       }
-      .caja-servicio{
-   
-         .fa-file-signature,.fa-globe{
-            font-size: 5rem;
-            color: black;
-         }
-         h3{
-            color: black;
-           
-         }
-         p{
-            color: black;
-           
-         }
-      }
+
+
    }
 
-.more-info-service{
-   ul{
-      padding-left: 1rem;
-      margin: 0;
-      li{
-         margin-top: 1rem;
-      }
+   .more-info-service{
+      padding: .5rem;
+      ul{
+         padding-left: 1rem;
+         margin: 0;
+         li{
+            margin-top: 1rem;
+         }
 
+      }
    }
-}
 }

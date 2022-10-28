@@ -6,9 +6,11 @@
     <div class="service-container">
         <div class="contenedor-servicio">
             <div class="caja-servicio">
-                <div class="caja-icono">
-                    <div class="icono">
-                        <img src="<?=base_url?>assets/img/pruebas-icono/responsive.png" alt="">
+                <div class="item-icono">
+                    <div class="caja-icono">
+                        <div class="icono">
+                            <img src="<?=base_url?>assets/img/pruebas-icono/responsive.png" alt="">
+                        </div>
                     </div>
                 </div>
                 <h3>Diseño web responsivo</h3>
@@ -17,9 +19,11 @@
         </div>
         <div class="contenedor-servicio">
             <div class="caja-servicio">
-                <div class="caja-icono">
-                    <div class="icono">
-                        <img src="<?=base_url?>assets/img/pruebas-icono/paginas-administrables.png" alt="">
+                <div class="item-icono">
+                    <div class="caja-icono">
+                        <div class="icono">
+                            <img src="<?=base_url?>assets/img/pruebas-icono/paginas-administrables.png" alt="">
+                        </div>
                     </div>
                 </div>
                 <h3>Contenido administrable</h3>
@@ -28,9 +32,11 @@
         </div>
         <div class="contenedor-servicio">
             <div class="caja-servicio">
-                <div class="caja-icono">
-                    <div class="icono">
-                        <img src="<?=base_url?>assets/img/pruebas-icono/carrito-de-compra.png" alt="">
+                <div class="item-icono">
+                    <div class="caja-icono">
+                        <div class="icono">
+                            <img src="<?=base_url?>assets/img/pruebas-icono/carrito-de-compra.png" alt="">
+                        </div>
                     </div>
                 </div>
                 <h3>Tienda online</h3>
@@ -39,10 +45,11 @@
         </div>
         <div class="contenedor-servicio">
             <div class="caja-servicio">
-                <div class="caja-icono">
-                    <div class="icono">
-                        <img src="<?=base_url?>assets/img/pruebas-icono/contenido-web2.png" alt="">
-                        
+                <div class="item-icono">
+                    <div class="caja-icono">
+                        <div class="icono">
+                            <img src="<?=base_url?>assets/img/pruebas-icono/contenido-web2.png" alt="">
+                        </div>
                     </div>
                 </div>
                 <h3>Seo & Sem</h3>
@@ -51,9 +58,11 @@
         </div>
         <div class="contenedor-servicio">
             <div class="caja-servicio">
-                <div class="caja-icono">
-                    <div class="icono">
-                        <img src="<?=base_url?>assets/img/pruebas-icono/seo4.png" alt="">
+                <div class="item-icono">
+                    <div class="caja-icono">
+                        <div class="icono">
+                            <img src="<?=base_url?>assets/img/pruebas-icono/seo4.png" alt="">
+                        </div>
                     </div>
                 </div>
                 <h3>Creación de contenido</h3>
@@ -61,9 +70,9 @@
             </div>
         </div>
     </div>
-    <p>Ya sea que tengas una idea de lo que deseas plasmar en tu sitio web, o que prefieras dejarlo en nuestras manos, construimos la web adecuada para tu proyecto.</p>
-    <p>Ten en cuenta que quien conoce mejor de su negocio eres tú, por lo que estaremos trabajando conjuntamente y de cerca contigo para que el producto final represente sus valores.</p>
     <div class="more-info-service">
+        <p>Ya sea que tengas una idea de lo que deseas plasmar en tu sitio web, o que prefieras dejarlo en nuestras manos, construimos la web adecuada para tu proyecto.</p>
+        <p>Ten en cuenta que quien conoce mejor de su negocio eres tú, por lo que estaremos trabajando conjuntamente y de cerca contigo para que el producto final represente sus valores.</p>
         <p>Comunmente, una web caerá en alguna de las siguientes categorías:</p>
         <ul>
             <li>Estática</li>
