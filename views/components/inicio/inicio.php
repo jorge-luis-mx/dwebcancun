@@ -4,33 +4,33 @@
     <div class="iconos contenedor">
         <div class="icono">
             <div class="icono1">
-                <img src="<?=base_url?>assets/img/pruebas-icono/responsive.png" alt="">
+                <img src="<?=base_url?>assets/img/pruebas-icono/responsive.png" alt="Diseño responsivo">
             </div>
             <p>Diseño responsivo</p>
         </div>
         <div class="icono">
             <div class="icono2">
-                <img src="<?=base_url?>assets/img/pruebas-icono/paginas-administrables.png" alt="">
+                <img src="<?=base_url?>assets/img/pruebas-icono/paginas-administrables.png" alt="Contenido administrable">
             </div>
             <p>Contenido administrable</p>
         </div>
         <div class="icono">
             <div class="icono3">
-                <img src="<?=base_url?>assets/img/pruebas-icono/carrito-de-compra.png" alt="">
+                <img src="<?=base_url?>assets/img/pruebas-icono/carrito-de-compra.png" alt="Tienda online">
             </div>
             <p>Tienda online</p>
         </div>
         <div class="icono">
             <div class="icono5">
-                <img src="<?=base_url?>assets/img/pruebas-icono/contenido-web2.png" alt="">
+                <img src="<?=base_url?>assets/img/pruebas-icono/contenido-web2.png" alt="Creación de contenido">
             </div>
             <p class="icon-font">Creación de contenido</p>
         </div>
         <div class="icono">
             <div class="icono4">
-                <img src="<?=base_url?>assets/img/pruebas-icono/seo4.png" alt="">
+                <img src="<?=base_url?>assets/img/pruebas-icono/seo4.png" alt="Seo & Sem">
             </div>
-            <p class="icon-font">SEO & SEM</p>
+            <p class="icon-font">Seo & Sem</p>
         </div>
 
     </div>

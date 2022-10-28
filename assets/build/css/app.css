@@ -675,7 +675,7 @@ h4 {
   margin-top: 1.5rem;
   min-height: 24rem;
   display: flex;
-  background-color: #3981a3;
+  background-color: #437691;
 }
 .responsibe .contenedor-responsibe {
   display: flex;
@@ -827,6 +827,11 @@ h4 {
   flex-wrap: wrap;
   padding: 0.5rem;
 }
+.servicios .service-container .contenedor-servicio {
+  margin: 0.6rem;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+  border-radius: 5px;
+}
 @media (min-width: 480px) {
   .servicios .service-container .contenedor-servicio {
     flex: 0 0 46%;
@@ -841,6 +846,9 @@ h4 {
   .servicios .service-container .contenedor-servicio {
     flex: 1 0 31%;
   }
+}
+.servicios .service-container .contenedor-servicio .caja-servicio {
+  padding: 0.5rem;
 }
 .servicios .service-container .contenedor-servicio .caja-servicio h3 {
   color: #333333;
@@ -872,7 +880,7 @@ h4 {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #7dbcdf;
+  background-color: #7DBCDF;
   width: 90px;
   height: 90px;
   border-radius: 100%;
@@ -884,9 +892,14 @@ h4 {
 .servicios .service-container .contenedor-servicio .caja-servicio .item-icono .caja-icono .icono img {
   width: 100%;
 }
-.servicios .service-container .contenedor-servicio .caja-servicio .item-icono .caja-icono:hover {
-  background-color: #5b8bb1;
+.servicios .service-container .contenedor-servicio:hover {
+  background-color: #437691;
   cursor: pointer;
+  color: white;
+  transition: linear 0.3s;
+}
+.servicios .service-container .contenedor-servicio:hover h3 {
+  color: white;
 }
 .servicios .more-info-service {
   padding: 0.5rem;
@@ -1158,6 +1171,18 @@ h4 {
     display: block;
     width: 100%;
   }
+}
+
+.appWhatsapp {
+  position: fixed;
+  right: 0px;
+  bottom: 10px;
+  z-index: 10;
+}
+
+.fa-whatsapp-square {
+  color: #86f800;
+  font-size: 3rem;
 }
 
 .footer {

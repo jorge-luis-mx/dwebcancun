@@ -20,6 +20,10 @@
       flex-wrap: wrap;
       padding: .5rem;
       .contenedor-servicio{
+         margin: .6rem;
+         box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+         border-radius: 5px;
+
          @include m.telefono(){
             flex: 0 0 calc(46%);
         }
@@ -31,6 +35,7 @@
             flex: 1 0 calc(31%);
         }
         .caja-servicio{
+         padding: .5rem;
             h3{
                color: #333333;
                text-align: center;
@@ -59,7 +64,7 @@
                   display: flex;
                   justify-content: center;
                   align-items: center;
-                  background-color: #7dbcdf;
+                  background-color: #7DBCDF;
                   width: 90px;
                   height: 90px;
                   border-radius: 100%;
@@ -71,14 +76,20 @@
                      }
                   }
                }
-               .caja-icono:hover{
-                  background-color: #5b8bb1;
-                  cursor: pointer;
-               }
+
             }
          }
       }
-
+      .contenedor-servicio:hover{
+         background-color: #437691;
+         cursor: pointer;
+         color: white;
+         transition: linear 0.3s;
+         h3{
+            color: white;
+         }
+      }
+      
 
    }
 

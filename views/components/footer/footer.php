@@ -1,4 +1,7 @@
    <footer id="footer" class="footer">
+        <div class="appWhatsapp">
+            <a href="https://api.whatsapp.com/send?phone=529984085290&text=hola!%20en%20que%20le%20podemos%20ayudar?" title="Whatsapp" alt="Whatsapp"><i class="fab fa-whatsapp-square"></i></a>
+        </div>
         <div class="contenedor">
             <div class="contenedor-footer">
                     <nav id="secundaria" class="menu">
