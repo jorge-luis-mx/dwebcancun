@@ -6,7 +6,7 @@
    display: flex;
    align-items: center;
    margin-bottom: 1.5rem;
-    @include m.gradiente(v.$secundario,v.$terciario);
+   @include m.gradiente(v.$colorBanner,v.$colorBannerDerecha);
    min-height: 10rem;
    .contenido-banner{
        span{

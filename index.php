@@ -6,8 +6,7 @@ require_once 'config/parameters.php';
 require_once 'views/layout/tag.php';
 require_once 'views/components/header/header.php';
 
-$controller=null;
-$controllerMetod=null;
+
 
 if(!isset($_GET['route'])){
 	$controller = controller_default;

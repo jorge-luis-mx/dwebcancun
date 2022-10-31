@@ -2,13 +2,35 @@
 //fuentes
 $fuente_principal:'Roboto', sans-serif;
 //colors
-$colorPrincipal:#333333;
-$secundario:#688ab0;
-$terciario:#7dbcdf;
-$colorResposive:#688ab0;
-$blanco:#ffffff;
-$gris:#e1e1e1;
-$negro:#1f1d1d;
+
+$blanco:#fff;
+$negro:#373737;
+$negroBajo:#5d5c5d;
+$gris:#b7b7b7;
+
+//seccion inicio
+$colorMenu:#fff;
+$colorTextMenuNav:#373737;
+$colorHoverNavTex:#2898ee;
+$colorHoverNavLine:#2898ee;;
+//inicio servicio
+$colorMenuServicios:#15297c;
+$colorMenuServicoSegundo:#15297c;
+$colorSectionResponsive:#373737;
+//Banner
+$colorBanner:#15297c;
+$colorBannerDerecha:#15297c;
+//servicio
+$cardServicioHover:#107acc;
+$iconoServicio:#0cbccc;
+
+//precios
+$colorCardPrecios:#15297c;
+
+//contacto
+$colorForm:#15297c;
+$colorBtn:#2898ee;
+
 //Media query
 $telefono:480px;
 $tablet:768px;

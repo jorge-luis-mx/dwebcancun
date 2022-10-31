@@ -4,8 +4,10 @@
       <div class="caja-contacto-form">
          <div class="contenedor-form">
             <div class="info-contact">
-               <span>Mas información</span>
-               <p class="more-info-contact">Solicita tu cotizacion en nuestro formulario de contacto con gusto estamos para apoyarte y resolver tus dudas.</p>
+               <div class="info-contacto">
+                  <span>Mas información</span>
+                  <p class="more-info-contact">Solicita tu cotizacion en nuestro formulario de contacto con gusto estamos para apoyarte y resolver tus dudas.</p>
+               </div>
                <form method="post" action=""  id="contactoForm" autocomplete="off" >
                   <div class="inputs">
                      <div class="input-group">

@@ -11,26 +11,21 @@
     //invocamos nuestra ruta 
     $routes = new Route();
     $arrayRuta=$routes->route();
-    
+
     $metaTitle=null;
     $metaDescription=null;
-    
-    if(!isset($_GET['controller'])){
+        
+    if(!isset($_GET['route'])){
+
         $metaTitle=$metas[0]['title'];
         $metaDescription=$metas[0]['description'];
     }
-
-    if(isset($_GET['controller'])){
-        if (in_array($_GET['controller'], $arrayRuta)) {
-            foreach ($metas as $key => $value) {
-               if ($_GET['controller']==$value['name']) {
-                $metaTitle=$value['title'];
-                $metaDescription=$value['description'];
-               }
+    if(isset($_GET['route'])){
+        foreach ($metas as $key => $value) {
+            if ($_GET['route']==$value['name']) {
+             $metaTitle=$value['title'];
+             $metaDescription=$value['description'];
             }
-        }else{
-            $metaTitle=$metas[0]['title'];
-            $metaDescription=$metas[0]['description'];
         }
     }
 
@@ -47,7 +42,6 @@
     <link rel="icon" type="image/x-icon" href="favicon.ico">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
     <link rel="stylesheet" href="assets/css/normalize.css">
-    <link href="https://fonts.googleapis.com/css?family=Raleway:400,900" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="<?=base_url?>assets/build/css/app.css">
 </head>

@@ -15,15 +15,12 @@
             margin: 1rem;
             color: v.$blanco;
         }
-        p{
-           font-size: 1.2rem;
-           margin: 1rem;
+        h2{
+            color: v.$blanco;
+            margin: 1rem;
         }
        @include m.tablet(){
            h1{
-               margin: 1rem;
-           }
-           p{
                margin: 1rem;
            }
        }

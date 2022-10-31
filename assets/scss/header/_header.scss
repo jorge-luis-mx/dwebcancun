@@ -6,9 +6,8 @@
    left: 0;
    top: 0;
    width: 100%;
-   background: #fff;
+   background: v.$colorMenu;
    z-index: 10000;
-   box-shadow: 0 0 1px 0 rgba(16, 16, 32, 0.25), 0 0 2px 0 rgba(0, 0, 0, 0.15);
 }
 .header{
    display: flex;
@@ -35,10 +34,10 @@
 }
 .menu-link ul li a{
    @include m.desktop(){
-       font-size: 1.2em;
+       font-size: 1.3em;
    }
    text-decoration: none;
-   color: v.$negro;
+   color: v.$colorTextMenuNav;
    margin-left: 15px;
    font-size: 1.0em;
    border-bottom: 2px solid transparent;
@@ -48,11 +47,11 @@
 
 .menu-link ul li a:hover,.active{
    @include m.tablet(){
-       border-bottom: 2px solid v.$negro !important;
-       color: v.$secundario !important;
+       border-bottom: 2px solid v.$colorHoverNavLine;
+       color: v.$colorHoverNavTex;
    }
-   border-bottom: 2px solid v.$terciario;
-   color: v.$blanco;
+   border-bottom: 2px solid v.$colorHoverNavLine;
+   color: v.$colorHoverNavTex;
    cursor: pointer;
 }
 
@@ -61,7 +60,7 @@
        display: none;
    }
    text-decoration: none;
-   color: v.$terciario;
+   color: v.$negro;
    font-size: 30px;
    margin-right: 15px;
 }

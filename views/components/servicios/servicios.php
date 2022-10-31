@@ -9,7 +9,7 @@
                 <div class="item-icono">
                     <div class="caja-icono">
                         <div class="icono">
-                            <img src="<?=base_url?>assets/img/pruebas-icono/responsive.png" alt="">
+                            <img src="<?=base_url?>assets/img/pruebas-icono/responsive.png" alt="imagen de Diseño web responsivo">
                         </div>
                     </div>
                 </div>
@@ -22,7 +22,7 @@
                 <div class="item-icono">
                     <div class="caja-icono">
                         <div class="icono">
-                            <img src="<?=base_url?>assets/img/pruebas-icono/paginas-administrables.png" alt="">
+                            <img src="<?=base_url?>assets/img/pruebas-icono/paginas-administrables.png" alt="imagen de Contenido administrable">
                         </div>
                     </div>
                 </div>
@@ -35,7 +35,7 @@
                 <div class="item-icono">
                     <div class="caja-icono">
                         <div class="icono">
-                            <img src="<?=base_url?>assets/img/pruebas-icono/carrito-de-compra.png" alt="">
+                            <img src="<?=base_url?>assets/img/pruebas-icono/carrito-de-compra.png" alt="imagen de Tienda online">
                         </div>
                     </div>
                 </div>
@@ -48,7 +48,7 @@
                 <div class="item-icono">
                     <div class="caja-icono">
                         <div class="icono">
-                            <img src="<?=base_url?>assets/img/pruebas-icono/contenido-web2.png" alt="">
+                            <img src="<?=base_url?>assets/img/pruebas-icono/contenido-web2.png" alt="imagen de Seo & Sem">
                         </div>
                     </div>
                 </div>
@@ -61,7 +61,7 @@
                 <div class="item-icono">
                     <div class="caja-icono">
                         <div class="icono">
-                            <img src="<?=base_url?>assets/img/pruebas-icono/seo4.png" alt="">
+                            <img src="<?=base_url?>assets/img/pruebas-icono/seo.png" alt="imagen de Creación de contenido">
                         </div>
                     </div>
                 </div>
@@ -77,10 +77,11 @@
         <ul>
             <li>Estática</li>
             <li>Dinámica</li>
-            <li>Estática con proceso de pago</li>
-            <li>Dinámica auto-administrable</li>
+            <li>Auto-administrable</li>
+            <li>Con proceso de pago</li>
+            <li>y mas..</li>
         </ul>
-        <p>Dependiendo de la solución que desees, será el precio y tiempo de entrega. Para obtener una cotización, puedes escribirnos a través de nuestra sección de <a href="contacto">contacto</a>.</p>
+        <p>Dependiendo de la solución que desees, será el precio y tiempo de entrega. Para obtener una cotización, puedes escribirnos a través de nuestra sección de <a href="contacto-de-diseno-paginas-web-cancun">contacto</a>.</p>
     </div>
 </div>
 

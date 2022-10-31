@@ -2,11 +2,10 @@
 @use 'base/mixins' as m;
 
 .barra{
-   min-height: 6rem;
-   padding: 1rem;
-   @include m.gradiente(v.$secundario,v.$terciario);
-   color: v.$blanco;
-
+    min-height: 6rem;
+    padding: 1rem;
+    @include m.gradiente(v.$colorMenuServicios,v.$colorMenuServicoSegundo);
+    color: v.$blanco;
    .iconos{
        display: flex;
        flex-direction: column;
@@ -69,15 +68,8 @@
    display: flex;
    justify-content:center;
    flex-wrap: wrap;
-   margin-top: 1.5rem;
-   .encabezado{
-       margin:1rem;
-       @include m.tablet(){
-           margin:0;
-           padding:0;
-           width: 70%;
-           text-align: center;
-       }
+   h2{
+    margin: 1rem;
    }
 }
 
@@ -94,17 +86,18 @@
            width: 100%;
        }
    }
+
    .informacion-web{
        flex: 0 0 calc(100%);
-       h3{
-           margin: 1rem;
+       h2{
+        margin: 1rem;
        }
        p{
-           font-size: 1rem;
-           line-height: 1.5rem;
+           font-size: 1.1rem;
+           line-height: 1.8rem;
            text-align:justify;
-           text-justify:inter-word;
            margin: 1rem;
+           font-weight: 500;
        }
        .infobtn{
            margin: 1rem;
@@ -114,9 +107,6 @@
            flex: 0 0 calc(50%);
            h3{
                margin-left: 1rem;
-           }
-           p{
-              margin: 1rem;
            }
        }
    }
@@ -128,7 +118,7 @@
    margin-top: 1.5rem;
    min-height: 24rem;
    display: flex;
-   background-color: #437691;
+   background-color: v.$colorSectionResponsive;
    .contenedor-responsibe{
        display: flex;
        justify-content: space-between;
@@ -138,10 +128,14 @@
            display: flex;
            flex-direction: column;
            justify-content: center;
+           h3{
+            margin: 1rem;
+            color: v.$blanco;
+           }
            p{
                font-size: 1rem;
                line-height: 1.5rem;
-               color: white;
+               color: v.$blanco;
                margin: 1rem;
            }
            @include m.tablet(){
@@ -158,7 +152,7 @@
                li{
                    line-height: 1.5rem;
                    font-size: 1.2rem;
-                   color: white;
+                   color: v.$blanco;
                }
 
            }
@@ -192,6 +186,7 @@
         
             #lista3 li:hover{
                 background: #eee;
+                cursor: pointer;
             }   
         
             #lista3 li:before{

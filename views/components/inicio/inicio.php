@@ -28,7 +28,7 @@
         </div>
         <div class="icono">
             <div class="icono4">
-                <img src="<?=base_url?>assets/img/pruebas-icono/seo4.png" alt="Seo & Sem">
+                <img src="<?=base_url?>assets/img/pruebas-icono/seo.png" alt="Seo & Sem">
             </div>
             <p class="icon-font">Seo & Sem</p>
         </div>
@@ -38,16 +38,17 @@
 
 <div class="contenedor">
     <div class="title-web"> 
-        <h2 class="encabezado">Diseño y Desarrollo Web</h2>
+        <h2>Diseño y Desarrollo Web</h2>
     </div>
 </div>
 
 <div class="info-web contenedor">
     <div class="informacion-web-img">
-        <img src="<?=base_url?>assets/img/servicios.png" title="diseño web cancun" alt="imagen de los diseños web cancun">
+        <img src="<?=base_url?>assets/img/diseno-web.png" title="diseño web cancun" alt="imagen de los diseños web cancun">
     </div>
     <div class="informacion-web">
         <p>Otórgale una fuerte presencia en línea a tu negocio con un sitio web atractivo y funcional. En <strong>DevsCun</strong>, somos especialistas en hacer que tu idea de página web se materialice y alcance los objetivos que estás fijando.</p>
+        
         <h2>Optimización SEO y creación de contenido</h2>
         <p>Además de crear tu web, la posicionamos para las búsquedas más afines a tu producto o servicio y lo mantenemos actualizado con las novedades de tu negocio e industria.</p>
     </div>
@@ -56,16 +57,14 @@
 <div class="responsibe">
     <div class="contenedor-responsibe contenedor">
         <div class="contenido-responsibe ">
-            <h4>Diseño responsivo</h4>
+            <h3>Diseño responsivo</h3>
             <p>Cada vez más usuarios navegan desde dispositivos móviles. Por esta razón, seguimos el patrón de diseño first-mobile, garantizando que tu contenido se ajuste a los diferentes tamaños de pantallas y pueda ser alcanzado por la mayor cantidad de usuarios.</p>
             <p>Beneficios del diseño responsivo</p>
-
             <ol id="lista3">
                 <li>Mejora la experiencia del usuario</li>
                 <li>Hace tu sitio web más indexable</li>
                 <li>Reduce el porcentaje de rebote</li>
             </ol>
-
         </div>
         <div class="img-responsibe">
             <div class="caja-img-responsive">
