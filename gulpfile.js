@@ -10,7 +10,7 @@ function css(done){
    //compilar sass
    //pasos: 1 -identificar el archivo, 2 -compilarla, 3 -guardar el .css
    src('assets/scss/app.scss')
-      .pipe(sass())
+      .pipe(sass({outputStyle:'compressed'}))
       .pipe(postcss([autoprefixer()]))
       .pipe(dest('assets/build/css'))
       done();

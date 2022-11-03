@@ -31,7 +31,6 @@
             </div>
         </div>
     </footer>
-    <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
     <script src="<?=base_url?>assets/js/menu.js"></script>
 </body>
 </html>

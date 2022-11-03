@@ -8,7 +8,7 @@
    display: flex;
    align-items: center;
    background-size: cover;
-   @include m.background-imagen('../../../assets/img/hero.jpg');
+   @include m.background-imagen('../../../assets/img/banner-diseño-web.jpg');
    .contenido-hero{
        flex: 1;
        h1{

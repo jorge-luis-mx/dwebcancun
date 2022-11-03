@@ -8,6 +8,7 @@
    width: 100%;
    background: v.$colorMenu;
    z-index: 10000;
+   box-shadow: 0 0 1px 0 rgba(16, 16, 32, 0.25), 0 0 2px 0 rgba(0, 0, 0, 0.15);
 }
 .header{
    display: flex;
