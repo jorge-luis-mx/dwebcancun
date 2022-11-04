@@ -1,8 +1,8 @@
    <footer id="footer" class="footer">
         <div class="appWhatsapp">
-            <a href="https://api.whatsapp.com/send?phone=529984085290&text=hola!%20en%20que%20le%20podemos%20ayudar?" 
+            <a href="https://api.whatsapp.com/send?phone=529984085290&text=hola,%20estoy%20interesado%20en%20una%20página%20web" 
                 title="Whatsapp" alt="Whatsapp">
-                <img src="<?=base_url?>assets/img/whatsapp.png" title="imagen de diseño web responsivo en cancun"alt="imagen de diseño web responsive en cancun">
+                <img src="<?=base_url?>assets/img/whatsapp.png" title="imagen de whatsapp" alt="imagen de whatsapp">
             </a>
         </div>
         <div class="contenedor">
@@ -21,7 +21,7 @@
                     <nav id="secundaria" class="menu">
                         <a href="#" class="enlace principal">Contacto</a>
                             <a href="#" class="enlace"><i class="fas fa-envelope"></i> info@devscun.com</a>
-                            <a href="https://api.whatsapp.com/send?phone=529984085290&text=hola!%20en%20que%20le%20podemos%20ayudar?" class="enlace"><i class="fas fa-phone"></i> 9984085290</a>
+                            <a href="https://api.whatsapp.com/send?phone=529984085290&text=hola,%20estoy%20interesado%20en%20una%20página%20web" class="enlace"><i class="fas fa-phone"></i> 9984085290</a>
                     </nav>
                     <nav id="secundaria" class="menu">
                         <a href="#" class="enlace principal">Siguenos</a>
@@ -32,5 +32,6 @@
         </div>
     </footer>
     <script src="<?=base_url?>assets/js/menu.js"></script>
+
 </body>
 </html>

@@ -5,6 +5,12 @@ require_once 'config/db.php';
 require_once 'config/parameters.php';
 require_once 'views/layout/tag.php';
 require_once 'views/components/header/header.php';
+require_once 'controllers/InicioController.php';
+require_once 'controllers/ServiciosController.php';
+require_once 'controllers/PreciosController.php';
+require_once 'controllers/NosotrosController.php';
+require_once 'controllers/ContactoController.php';
+require_once 'controllers/EmailController.php';
 
 
 
@@ -14,12 +20,14 @@ if(!isset($_GET['route'])){
 	$objController->inicio();
 }
 if(isset($_GET['route'])){
+
 	switch ($_GET['route']) {
 		case "servicios-de-paginas-web-cancun":
 
 			$controller='serviciosController';
 			$controllerMetod='servicios';
-			 break;
+
+			break;
 		case "precios-de-paginas-web-cancun":
 			$controller='preciosController';
 			$controllerMetod='precios';

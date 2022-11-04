@@ -5,7 +5,7 @@
 
 		public function db_connect() {
 			$con = new mysqli('localhost','root','','dweb');
-
+			
 			if ($con->connect_errno) {
 					echo "Fallo al conectar a MySQL: (" . $con->connect_errno . ") " . $con->connect_error;
 			}

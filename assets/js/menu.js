@@ -117,9 +117,9 @@ window.addEventListener('DOMContentLoaded', (event) => {
              this.errorActive('mensaje');
              return false;
          }
- 
+
          try {
-            const response = await fetch(path+'/controllers/EmailController.php',{
+            const response = await fetch('/controllers/EmailController.php',{
                method: "post",
                body: engine
             });

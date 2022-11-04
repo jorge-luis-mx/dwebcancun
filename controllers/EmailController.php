@@ -33,7 +33,7 @@ if ($_SERVER["REQUEST_METHOD"]=="POST") {
 
       $enviar_a	= 'info@devscun.com';
       $asunto		= $datos["asunto"];
-      $info = "";
+      $info = "Tienes un cliente solicitando informacion de diseño web!";
       foreach ($datos as $key => $value) {
            $info .= "<br> <strong>".ucwords($key)."</strong>: ".$value;
       }
@@ -42,8 +42,8 @@ if ($_SERVER["REQUEST_METHOD"]=="POST") {
       $headers.= "Content-type: text/html; charset=UTF-8\r\n"; 
       $headers.= "X-Priority: 1\r\n";
        
-      //$enviado = mail($enviar_a, $asunto,$info,$headers);//
-      if (1==1/* $enviado !== false*/) {
+      $enviado = mail($enviar_a, $asunto,$info,$headers);//
+      if ($enviado !== false) {
          // establecemos conecion bd
          // $objUser = new Config();//
          // Gusarda los los datos en la bd
