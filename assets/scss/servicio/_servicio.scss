@@ -3,15 +3,15 @@
 
 .servicios{
    .slug-service{
-      font-size: 1.5rem;
+      font-size: 1.3rem;
       color: #333333;
       text-align: center;
-      margin-right: 7rem;
    }
    @include m.desktop(){
       .slug-service{
          text-align: start;
          font-size: 2rem;
+         padding-left: .8rem;
       }
    }
    .service-container{
