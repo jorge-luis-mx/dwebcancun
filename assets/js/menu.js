@@ -125,7 +125,11 @@ window.addEventListener('DOMContentLoaded', (event) => {
             });
             let res=await response.json();
             if (res.status==200) {
-               alert(res.message);
+               Swal.fire(
+                  'Mensaje enviado correctamente!',
+                  'click en button!',
+                  'success'
+                )
                const wereinputs = document.querySelectorAll('.iam-input');
                if(wereinputs != null) {
                    wereinputs.forEach((input) => {
