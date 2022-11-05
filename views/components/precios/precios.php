@@ -83,7 +83,6 @@
                         <p>Dominio,Hosting y certificado SSL sin costo el primer años.</p>
                         <p>Optimizacion para el posicionamiento (seo)</p>
                         <p>Gestion de datos (Base de datos)</p>
-                        <p>Gestion de datos (Base de datos)</p>
                     </div>
                 </div>
             </div>

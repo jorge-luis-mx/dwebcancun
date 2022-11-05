@@ -11,8 +11,11 @@ if(isset($_GET['route'])){
         case "nosotros-desenamos-paginas-web-cancun":
             $name='Nuestros';
             break;
-        default:
+        case "contacto-de-diseno-paginas-web-cancun":
             $name='Contactenos';
+            break;
+        default:
+            $name='Hemos perdido esta pagina';
     }
 }
 

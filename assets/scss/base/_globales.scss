@@ -57,3 +57,27 @@ h4{
 .quitarMenuMovil{
    left:-100% !important;
 }
+
+//page
+.paginas-container{
+   p{
+      text-align: center;
+      font-size: 1.3rem;
+   }
+   .pagina-btn{
+      display: flex;
+      justify-content: center;
+      .enla-pagina-no-encontrada{
+         background:v.$btn-pagina;
+         border: none;
+         border-radius: 5px;
+         font-size: 22px;
+         font-weight: 500;
+         color: v.$blanco;
+         margin-top: 5px;
+         cursor: pointer;
+         padding: 1rem;
+      }
+   }
+}
+

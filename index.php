@@ -11,10 +11,12 @@ require_once 'controllers/PreciosController.php';
 require_once 'controllers/NosotrosController.php';
 require_once 'controllers/ContactoController.php';
 require_once 'controllers/EmailController.php';
+require_once 'controllers/PaginaController.php';
 
 
 
 if(!isset($_GET['route'])){
+
 	$controller = controller_default;
 	$objController = new $controller();
 	$objController->inicio();
@@ -22,6 +24,13 @@ if(!isset($_GET['route'])){
 if(isset($_GET['route'])){
 
 	switch ($_GET['route']) {
+		case "paginas-web-cancun":
+
+			$controller='InicioController';
+			$controllerMetod='inicio';
+
+			break;
+
 		case "servicios-de-paginas-web-cancun":
 
 			$controller='serviciosController';
@@ -44,8 +53,8 @@ if(isset($_GET['route'])){
 			break;
 
 		default:
-			$controller='inicioController';
-			$controllerMetod='inicio';
+			$controller='paginaController';
+			$controllerMetod='pagina';
   	}
 
 	$objController = new $controller();
