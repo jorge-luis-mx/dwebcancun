@@ -3,26 +3,18 @@
 RewriteEngine on
 
 
+RewriteCond %{SCRIPT_FILENAME} !-d
+RewriteCond %{SCRIPT_FILENAME} !-f
+
+
 RewriteCond %{HTTP_HOST} !^www.devscun.com [NC]
 RewriteRule ^(.*) https://www.devscun.com/$1 [L,R=301]
 RewriteCond %{HTTPS} !=on
 RewriteRule ^(.*) https://www.devscun.com/$1 [L,R=301]
 
-RewriteCond %{REQUEST_FILENAME} !-d
-RewriteCond %{REQUEST_FILENAME}\.php -f
-RewriteRule ^(.*)$ $1.php
+RewriteRule ^([-a-zA-Z0-9/_]+)$ index.php?route=$1
 
-#RewriteCond %{REQUEST_FILENAME} !-d
-#RewriteCond %{REQUEST_FILENAME}\.shtml -f
-#RewriteRule ^(.*)$ $1.shtml
-
-RewriteCond %{SCRIPT_FILENAME} !-d
-RewriteCond %{SCRIPT_FILENAME} !-f
-#RewriteRule ^(.*)/(.*) index.php?route=$1&route=$1
-RewriteRule ^(.*) index.php?route=$1
-
-RewriteCond %{HTTP:Authorization} .
-# Ensure Authorization header is passed along
-RewriteRule .* - [E=HTTP_AUTHORIZATION:%{HTTP:Authorization}]
+ErrorDocument 404 https://www.devscun.com/404
+Options -Indexes
 
 </IfModule>

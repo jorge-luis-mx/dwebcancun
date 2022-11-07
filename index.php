@@ -11,6 +11,7 @@ require_once 'controllers/PreciosController.php';
 require_once 'controllers/NosotrosController.php';
 require_once 'controllers/ContactoController.php';
 require_once 'controllers/EmailController.php';
+require_once 'controllers/ErrorController.php';
 require_once 'controllers/PaginaController.php';
 
 
@@ -28,37 +29,56 @@ if(isset($_GET['route'])){
 
 			$controller='InicioController';
 			$controllerMetod='inicio';
-
+			$objController = new $controller();
+			$objController->$controllerMetod();
 			break;
 
 		case "servicios-de-paginas-web-cancun":
 
 			$controller='serviciosController';
 			$controllerMetod='servicios';
+			$objController = new $controller();
+			$objController->$controllerMetod();
 
 			break;
 		case "precios-de-paginas-web-cancun":
+
 			$controller='preciosController';
 			$controllerMetod='precios';
+			$objController = new $controller();
+			$objController->$controllerMetod();
 			 break;
 		case "nosotros-desenamos-paginas-web-cancun":
 
 			$controller='nosotrosController';
 			$controllerMetod='nosotros';
+			$objController = new $controller();
+			$objController->$controllerMetod();
 			break;
 		case "contacto-de-diseno-paginas-web-cancun":
 
 			$controller='contactoController';
 			$controllerMetod='contacto';
+			$objController = new $controller();
+			$objController->$controllerMetod();
 			break;
+
+		case "404":
+
+				$controller='errorController';
+				$controllerMetod='error';
+				$objController = new $controller();
+				$objController->$controllerMetod();
+		break;
 
 		default:
 			$controller='paginaController';
 			$controllerMetod='pagina';
+			$objController = new $controller();
+			$objController->$controllerMetod();
   	}
 
-	$objController = new $controller();
-	$objController->$controllerMetod();
+
 
 }
 
