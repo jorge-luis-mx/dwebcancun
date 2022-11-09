@@ -2,16 +2,19 @@
 $name=null;
 if(isset($_GET['route'])){
     switch ($_GET['route']) {
+        case "paginas-web-cancun":
+            $name='Páginas Web en Cancún';
+            break;
         case "servicios-de-paginas-web-cancun":
             $name='Servicios';
             break;
         case "precios-de-paginas-web-cancun":
             $name='Precios';
             break;
-        case "nosotros-desenamos-paginas-web-cancun":
-            $name='Nuestros';
+        case "nosotros":
+            $name='Nosotros';
             break;
-        case "contacto-de-diseno-paginas-web-cancun":
+        case "contacto":
             $name='Contactenos';
             break;
         default:
@@ -22,6 +25,6 @@ if(isset($_GET['route'])){
 ?>
 <div class="banner">
     <div class="contenido-banner contenedor">
-        <h1 style="color:white"><?=$name;?></h1>
+        <h1><?=$name;?></h1>
     </div>
 </div>

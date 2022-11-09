@@ -27,8 +27,9 @@ if(isset($_GET['route'])){
 	switch ($_GET['route']) {
 		case "paginas-web-cancun":
 
-			$controller='InicioController';
-			$controllerMetod='inicio';
+			$controller='paginaCancunController';
+			$controllerMetod='paginaCancun';
+
 			$objController = new $controller();
 			$objController->$controllerMetod();
 			break;
@@ -48,14 +49,14 @@ if(isset($_GET['route'])){
 			$objController = new $controller();
 			$objController->$controllerMetod();
 			 break;
-		case "nosotros-desenamos-paginas-web-cancun":
+		case "nosotros":
 
 			$controller='nosotrosController';
 			$controllerMetod='nosotros';
 			$objController = new $controller();
 			$objController->$controllerMetod();
 			break;
-		case "contacto-de-diseno-paginas-web-cancun":
+		case "contacto":
 
 			$controller='contactoController';
 			$controllerMetod='contacto';

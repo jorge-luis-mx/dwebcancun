@@ -1,0 +1,33 @@
+@use 'base/variables' as v;
+@use 'base/mixins' as m;
+
+.container-pregunta{
+   .pregunta{
+      font-size: 1.7rem;
+      line-height: 2.5rem;
+      color: v.$negro;
+      font-weight: 500;
+   }
+}
+.paginas-web-cancun{
+   display: flex;
+   justify-content: space-between;
+   .conte-web-cancun{
+      flex: 0 0 calc(55%);
+
+      p{
+         font-size: 1.1rem;
+         line-height: 2rem;
+      }
+   }
+   .img-web-cancun{
+      flex: 1 0 calc(40%);
+      margin-top: 1rem;
+      margin: .5rem;
+      img{
+         width: 100%;
+         box-shadow: rgb(60 64 67 / 30%) 0px 1px 2px 0px, rgb(60 64 67 / 15%) 0px 2px 6px 2px;
+         border-radius: 5px;
+      }
+   }
+}

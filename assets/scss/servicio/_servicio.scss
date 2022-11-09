@@ -37,8 +37,10 @@
         .caja-servicio{
          padding: .5rem;
             h3{
-               color: #333333;
+               color: v.$negro;
+               font-weight: normal;
                text-align: center;
+               font-size: 1.5rem;
             }
             p{
                text-align: center;

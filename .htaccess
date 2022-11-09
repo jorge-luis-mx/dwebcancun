@@ -7,10 +7,10 @@ RewriteCond %{SCRIPT_FILENAME} !-d
 RewriteCond %{SCRIPT_FILENAME} !-f
 
 
-RewriteCond %{HTTP_HOST} !^www.devscun.com [NC]
-RewriteRule ^(.*) https://www.devscun.com/$1 [L,R=301]
-RewriteCond %{HTTPS} !=on
-RewriteRule ^(.*) https://www.devscun.com/$1 [L,R=301]
+#RewriteCond %{HTTP_HOST} !^www.devscun.com [NC]
+#RewriteRule ^(.*) https://www.devscun.com/$1 [L,R=301]
+#RewriteCond %{HTTPS} !=on
+#RewriteRule ^(.*) https://www.devscun.com/$1 [L,R=301]
 
 RewriteRule ^([-a-zA-Z0-9/_]+)$ index.php?route=$1
 
