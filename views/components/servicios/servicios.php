@@ -81,7 +81,7 @@
             <li>Con proceso de pago</li>
             <li>y mas..</li>
         </ul>
-        <p>Dependiendo de la solución que desees, será el precio y tiempo de entrega. Para obtener una cotización, puedes escribirnos a través de nuestra sección de <a href="contacto-de-diseno-paginas-web-cancun">contacto</a>.</p>
+        <p>Dependiendo de la solución que desees, será el precio y tiempo de entrega. Para obtener una cotización, puedes escribirnos a través de nuestra sección de <a href="contacto">contacto</a>.</p>
     </div>
 </div>
 
