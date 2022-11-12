@@ -42,6 +42,12 @@
     <link rel="stylesheet" href="<?=base_url?>assets/build/css/app.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap" rel="stylesheet">
-       
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-9Y3JXMPHFH"></script>
 </head>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-9Y3JXMPHFH');
+</script>
 <body>

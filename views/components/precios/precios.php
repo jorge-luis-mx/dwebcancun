@@ -1,10 +1,9 @@
 <?php require_once 'views/components/banner/banner.php' ?>
 
-
 <div class="contenedor">
     <div class="precio-content">
         <div class="slug-precios">
-            <span class="precios-title">Precios de Páginas Web</span>
+            <h2 class="precios-subtitle">Precios de Páginas Web</h2>
             <p>De acuerdo al nivel en que se encuentren los requerimientos de página web que tienes, podremos ofrecerte <b>precios fijos</b>. En caso de que tu idea de página web incluya elementos fuera de estos planes, <b>el precio variará</b> conforme a la complejidad y robustez de la misma.</p>
         </div>
         <div class="contenedor-cards">
@@ -21,7 +20,7 @@
                         <p>Banner o slider(1)(2)</p>
                         <p>Iconos de redes sociales(facebook y instagram)</p>
                         <p>Llamada a la acción (button de whatsapp) y 1 formulario de contacto</p>
-                        <p>Dominio,Hosting y certificado SSL sin costo el primer años.</p>
+                        <p>Dominio,Hosting y certificado SSL sin costo el primer año.</p>
                         <p>Optimizacion para el posicionamiento (seo)</p>
                     </div>
                 </div>
@@ -39,7 +38,7 @@
                         <p>URL Amigables </p>
                         <p>Iconos de redes sociales(facebook y instagram)</p>
                         <p>Llamada a la acción (button de whatsapp) y 1 formulario de contacto</p>
-                        <p>Dominio,Hosting y certificado SSL sin costo el primer años.</p>
+                        <p>Dominio,Hosting y certificado SSL sin costo el primer año.</p>
                         <p>Optimizacion para el posicionamiento (seo)</p>
                     </div>
                 </div>
@@ -58,7 +57,7 @@
                         <p>Autoadministrable</p>
                         <p>Iconos de redes sociales(facebook y instagram)</p>
                         <p>Llamada a la acción (button de whatsapp) y 1 formulario de contacto</p>
-                        <p>Dominio,Hosting y certificado SSL sin costo el primer años.</p>
+                        <p>Dominio,Hosting y certificado SSL sin costo el primer año.</p>
                         <p>Optimizacion para el posicionamiento (seo)</p>
                         <p>Gestion de datos (Base de datos)</p>
                     </div>
@@ -80,7 +79,7 @@
                         <p>Autoadministrable</p>
                         <p>Iconos de redes sociales(facebook y instagram)</p>
                         <p>Llamada a la acción (button de whatsapp) y 1 formulario de contacto</p>
-                        <p>Dominio,Hosting y certificado SSL sin costo el primer años.</p>
+                        <p>Dominio,Hosting y certificado SSL sin costo el primer año.</p>
                         <p>Optimizacion para el posicionamiento (seo)</p>
                         <p>Gestion de datos (Base de datos)</p>
                     </div>

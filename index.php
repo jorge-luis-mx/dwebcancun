@@ -13,6 +13,7 @@ require_once 'controllers/ContactoController.php';
 require_once 'controllers/EmailController.php';
 require_once 'controllers/ErrorController.php';
 require_once 'controllers/PaginaController.php';
+require_once 'controllers/PaginaCancunController.php';
 
 
 
@@ -27,9 +28,12 @@ if(isset($_GET['route'])){
 	switch ($_GET['route']) {
 		case "paginas-web-cancun":
 
+			// $controller = controller_default;
+			// $objController = new $controller();
+			// $objController->inicio();
+
 			$controller='paginaCancunController';
 			$controllerMetod='paginaCancun';
-
 			$objController = new $controller();
 			$objController->$controllerMetod();
 			break;

@@ -2,17 +2,18 @@
 @use 'base/mixins' as m;
 
 .precio-content{
-   margin: 1rem;
+   padding-bottom: 1rem;
    .slug-precios{
-      text-align: center;
-      .precios-title{
-         font-size: 1.8rem;
-         line-height: 2.8rem;
+      .precios-subtitle{
+         font-size: 1.7rem;
+         line-height: 2.5rem;
          color: v.$negro;
+         text-align: center;
       }
       p{
          font-size: 1.2rem;
          line-height: 2rem;
+         text-align: center;
       }
    }
 
@@ -61,10 +62,11 @@
       }
    
       @include m.telefono(){
-
-         .precios-title{
-            font-size: 2rem;
-            line-height: 2.8rem;
+         .precios-subtitle{
+            font-size: 1.7rem;
+            line-height: 2.5rem;
+            color: v.$negro;
+            text-align: center;
          }
          p{
             font-size: 1.2rem;
@@ -76,7 +78,6 @@
          }
      }
       @include m.tablet(){
-
          .card{
             flex: 1 0 calc(35%);
          }

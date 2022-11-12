@@ -15,7 +15,7 @@ if(isset($_GET['route'])){
             $name='Nosotros';
             break;
         case "contacto":
-            $name='Contactenos';
+            $name='Contacto';
             break;
         default:
             $name='Hemos perdido esta pagina';
