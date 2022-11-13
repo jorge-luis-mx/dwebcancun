@@ -17,14 +17,12 @@
       }
    }
 
-   @include m.telefono(){
-      margin: 0rem;
-   }
    .contenedor-cards{
       display: flex;
       flex-direction: row;
       flex-wrap: wrap;
       justify-content: space-between;
+      padding: 1rem;
       .card{
          flex: 0 0 calc(100%);
          margin-bottom: 1rem;
@@ -32,7 +30,7 @@
          background-color: v.$colorCardPrecios;
          border-radius: 1em;
          overflow: hidden;
-   
+         
          .card-title{
             h4{
                color: v.$blanco;
@@ -77,14 +75,15 @@
             margin: .5rem;
          }
      }
+     
       @include m.tablet(){
          .card{
             flex: 1 0 calc(35%);
          }
-         
-     }
+      }
    
      @include m.desktop(){
+         padding: 0rem;
          .card{
             flex: 1 0 calc(20%);
          }
