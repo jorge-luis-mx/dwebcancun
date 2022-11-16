@@ -4,7 +4,7 @@
 <div class="contenedor">
    <div class="contenedor-paginas-web">
       <div class="container-pregunta">
-         <h2 class="pregunta">¿A punto de lanzar tu proyecto o ya cuentas con un negocio en <strong>Cancún</strong> y necesitas una <strong>página web</strong> ?</h2>
+         <h2 class="pregunta">¿A punto de lanzar tu proyecto o ya cuentas con un negocio en <strong>Cancún</strong> y necesitas una <strong>página web o tienda online</strong> ?</h2>
       </div>
       <div class="paginas-web-cancun">
          <div class="conte-web-cancun">

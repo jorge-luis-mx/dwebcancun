@@ -4,13 +4,13 @@
     <div class="precio-content">
         <div class="slug-precios">
             <h2 class="precios-subtitle">Precios de Páginas Web</h2>
-            <p>De acuerdo al nivel en que se encuentren los requerimientos de página web que tienes, podremos ofrecerte <b>precios fijos</b>. En caso de que tu idea de página web incluya elementos fuera de estos planes, <b>el precio variará</b> conforme a la complejidad y robustez de la misma.</p>
+            <p>De acuerdo al nivel en que se encuentren los requerimientos de página web que tienes, podremos ofrecerte <b>precios fijos</b>. En caso de que tu idea de página web incluya elementos fuera de estos paquetes, <b>el precio variará</b> conforme a la complejidad y robustez de la misma.</p>
         </div>
         <div class="contenedor-cards">
 
             <div class="card">
                 <div class="card-title">
-                    <h4>PLAN<br>LANDINGPAGE</h4>
+                    <h3>LANDING PAGE<br> ONLINE</h3>
                 </div>
                 <div class="card-col-body">
                     <div class="card-body">
@@ -27,7 +27,7 @@
             </div>
             <div class="card">
                 <div class="card-title">
-                    <h4>PLAN WEB<br>CORPORATIVO</h4>
+                    <h3>PAQUETE WEB<br>CORPORATIVO</h3>
                 </div>
                 <div class="card-col-body">
                     <div class="card-body">
@@ -45,7 +45,7 @@
             </div>
             <div class="card">
                 <div class="card-title">
-                    <h4>PLAN WEB<br>AUTOADMINISTRABLE</h4>
+                    <h3>PAQUETE WEB<br>AUTOADMINISTRABLE</h3>
                 </div>
                 <div class="card-col-body">
                     <div class="card-body">
@@ -65,7 +65,7 @@
             </div>
             <div class="card">
                 <div class="card-title">
-                    <h4>PLAN<br>TIENDA ONLINE</h4>
+                    <h3>PAQUETE<br>TIENDA ONLINE</h3>
                 </div>
                 <div class="card-col-body">
                     <div class="card-body">

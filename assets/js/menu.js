@@ -119,7 +119,7 @@ window.addEventListener('DOMContentLoaded', (event) => {
          }
 
          try {
-            const response = await fetch('/controllers/EmailController.php',{
+            const response = await fetch('controllers/EmailController.php',{
                method: "post",
                body: engine
             });

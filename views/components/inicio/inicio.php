@@ -38,7 +38,7 @@
 
 <div class="contenedor">
     <div class="title-web"> 
-        <h2>Diseño y Desarrollo Web</h2>
+        <h2>Desarrollo y Diseño de paginas Web</h2>
     </div>
 </div>
 
@@ -49,7 +49,7 @@
     <div class="informacion-web">
         <p>Otórgale una fuerte presencia en línea a tu negocio con un sitio web atractivo y funcional. En <strong>DevsCun</strong>, somos especialistas en hacer que tu idea de página web se materialice y alcance los objetivos que estás fijando.</p>
         
-        <h2>Optimización SEO y creación de contenido</h2>
+        <h2>Optimización SEO y creación de contenido web</h2>
         <p>Además de crear tu web, la posicionamos para las búsquedas más afines a tu producto o servicio y lo mantenemos actualizado con las novedades de tu negocio e industria.</p>
     </div>
 </div>
@@ -57,7 +57,7 @@
 <div class="responsibe">
     <div class="contenedor-responsibe contenedor">
         <div class="contenido-responsibe ">
-            <h3>Diseño responsivo</h3>
+            <h3>Diseño de páginas web responsivo</h3>
             <p>Cada vez más usuarios navegan desde dispositivos móviles. Por esta razón, seguimos el patrón de diseño first-mobile, garantizando que tu contenido se ajuste a los diferentes tamaños de pantallas y pueda ser alcanzado por la mayor cantidad de usuarios.</p>
             <p>Beneficios del diseño responsivo</p>
             <ol id="lista3">

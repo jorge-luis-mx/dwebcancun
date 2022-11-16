@@ -13,7 +13,7 @@
                             </div>
                         </div>
                     </div>
-                    <h3>Diseño web responsivo</h3>
+                    <h3>Página web responsivo</h3>
                     <p>Nos damos a la tarea de estudiar los elementos que conformarán el sitio web para otorgarle la mejor apariencia y adaptar el diseño a los diferentes tamaños de dispositivos.</p>
                 </div>
             </div>
@@ -26,7 +26,7 @@
                             </div>
                         </div>
                     </div>
-                    <h3>Contenido administrable</h3>
+                    <h3>Página web autoadministrable </h3>
                     <p>Creamos y te otorgamos acceso a plataformas donde puedas gestionar el contenido de tu web en caso de que prefieras hacerlo por cuenta propia.</p>
                 </div>
             </div>
@@ -65,7 +65,7 @@
                             </div>
                         </div>
                     </div>
-                    <h3>Creación de contenido</h3>
+                    <h3>Creación contenido web</h3>
                     <p>Mantenemos actualizado tu sitio web con ofertas, promociones, novedades y artículos.</p>
                 </div>
             </div>

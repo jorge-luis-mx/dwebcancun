@@ -32,10 +32,11 @@
          overflow: hidden;
          
          .card-title{
-            h4{
+            h3{
                color: v.$blanco;
                text-align: center;
-               font-size: 1.3rem;
+               font-size: 1.1rem;
+               line-height: 1.5rem;
             }
          }
          .card-col-body{

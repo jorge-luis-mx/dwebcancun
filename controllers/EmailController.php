@@ -4,8 +4,12 @@ if ($_SERVER["REQUEST_METHOD"]=="POST") {
    include_once '../config/db.php';
    include_once '../config/helper.php';
    include_once '../models/metaModel.php';
+   include_once '../models/saveClientsModel.php';
 
-   $objGeneral=new General;
+   $objCon = new Config();
+
+   $objGeneral=new General($objCon);
+   $objClient=new Save($objCon);
 
    $validacion["nombre"] = array("etiqueta" => "nombre", "validacion" => "letras_espacios", "obligatorio" => "1");
    $validacion["telefono"] = array("etiqueta" => "telefono", "validacion" => "numeros", "obligatorio" => "1");
@@ -42,28 +46,27 @@ if ($_SERVER["REQUEST_METHOD"]=="POST") {
       $headers.= "Content-type: text/html; charset=UTF-8\r\n"; 
       $headers.= "X-Priority: 1\r\n";
        
-      $enviado = mail($enviar_a, $asunto,$info,$headers);//
+      $enviado = mail($enviar_a, $asunto,$info,$headers);
+      
       if ($enviado !== false) {
-         // establecemos conecion bd
-         // $objUser = new Config();//
-         // Gusarda los los datos en la bd
-         // $objUser->salvar($datos);//
    
-         // $strInsert = "INSERT INTO events (`name`,`id_places`,`id_type`,`date`,`hour`,`status`) 
-         // values ( 
-         // '" . $limpios["txtEvento"] . "',
-         // '" . $limpios["txtLugar"] . "',
-         // '" . $limpios["txtTipo"] . "',
-         // '" . $limpios["txtFecha"] . "',
-         // '" . $limpios["txtHora"] . "',
-         // 1
-         // )";
-         // $id_event = $objEvt->saveEvent($strInsert);
+         $strInsert = "INSERT INTO client (`nombre`,`telefono`,`correo`,`pais`,`estado`,`asunto`,`mensaje`,`status`) 
+         values ( 
+         '" . $datos["nombre"].  "',
+         '" . $datos["telefono"]. "',
+         '" . $datos["correo"]. "',
+         '" . $datos["pais"] . "',
+         '" . $datos["estado"] . "',
+         '" . $datos["asunto"] . "',
+         '" . $datos["mensaje"] . "',
+         1
+         )";
 
-
+         $id_client = $objClient->saveClient($strInsert);
          // procedemos a devolver la respuesta de aprovacion
          $resultado["status"]=200;
          $resultado["message"]="Su mensaje ha sido enviado!";
+         $resultado["message"]=$id_client;
    
       }else {
          // Hubo algun tipo de error
