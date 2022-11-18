@@ -1,7 +1,7 @@
 <div class="menu_nav">
     <header id="header" class="header contenedor">
         <div class="logo">
-            <a href="/"><img src="<?=base_url?>assets/img/logo-devscun.png" id="logo" title="dwebcancun" alt="logo dwebcancun"></a>
+            <a href="/"><img src="<?=base_url?>assets/img/logo-devscun.png" id="logo" title="DevsCun" alt="logo-devscun"></a>
         </div>
         <div class="icon-menu">
             <span  id="btn-menu" class="btn-menu">

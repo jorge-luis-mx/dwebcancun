@@ -25,8 +25,8 @@
                     </nav>
                     <nav id="secundaria" class="menu">
                         <a href="#" class="enlace principal">Siguenos</a>
-                            <a href="https://www.facebook.com/profile.php?id=100076058289142" target="_blank" class="enlace" aria-label="siguenos en facebook"><i class="fab fa-facebook-f"></i> Facebook</a>
-                            <a href="#" class="enlace" aria-label="siguenos en instagram"><i class="fab fa-instagram"></i> Instagram</a>
+                            <a href="https://www.facebook.com/profile.php?id=100076058289142" title="facebook" target="_blank" class="enlace" aria-label="siguenos en facebook"><i class="fab fa-facebook-f"></i> Facebook</a>
+                            <a href="https://www.instagram.com/devscun/" class="enlace" title="instagram" aria-label="siguenos en instagram"><i class="fab fa-instagram"></i> Instagram</a>
                     </nav>
             </div>
         </div>

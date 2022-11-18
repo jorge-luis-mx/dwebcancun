@@ -4,31 +4,31 @@
     <div class="iconos contenedor">
         <div class="icono">
             <div class="icono1">
-                <img src="<?=base_url?>assets/img/iconos-devscun/icono-diseño-web-responsivo.png" alt="Diseño responsivo">
+                <img src="<?=base_url?>assets/img/iconos-devscun/icono-diseño-web-responsivo.png" title="Paginas web responsivo" alt="Desarrollo y deseño de paginas web resposivos">
             </div>
-            <p>Diseño responsivo</p>
+            <p>Pagina web responsivo</p>
         </div>
         <div class="icono">
             <div class="icono2">
-                <img src="<?=base_url?>assets/img/iconos-devscun/icono-paginas-web-administrable.png" alt="Contenido administrable">
+                <img src="<?=base_url?>assets/img/iconos-devscun/icono-paginas-web-administrable.png" title="Pagina web autoadministrable" alt="Desarrollo de paginas web autoadministrable">
             </div>
-            <p>Contenido administrable</p>
+            <p>Pagina web autoadministrable</p>
         </div>
         <div class="icono">
             <div class="icono3">
-                <img src="<?=base_url?>assets/img/iconos-devscun/icono-tienda-online.png" alt="Tienda online">
+                <img src="<?=base_url?>assets/img/iconos-devscun/icono-tienda-online.png" title="Tienda online" alt="Tienda online y diseño de paginas web">
             </div>
             <p>Tienda online</p>
         </div>
         <div class="icono">
             <div class="icono5">
-                <img src="<?=base_url?>assets/img/iconos-devscun/icono-contenido-web.png" alt="Creación de contenido">
+                <img src="<?=base_url?>assets/img/iconos-devscun/icono-contenido-web.png" title="Creación de contenido web" alt="Creación de contenido web">
             </div>
-            <p class="icon-font">Creación de contenido</p>
+            <p class="icon-font">Creación contenido web</p>
         </div>
         <div class="icono">
             <div class="icono4">
-                <img src="<?=base_url?>assets/img/iconos-devscun/icono-seo.png" alt="Seo & Sem">
+                <img src="<?=base_url?>assets/img/iconos-devscun/icono-seo.png" title="seo" alt="Seo & Sem">
             </div>
             <p class="icon-font">Seo & Sem</p>
         </div>
@@ -44,7 +44,7 @@
 
 <div class="info-web contenedor">
     <div class="informacion-web-img">
-        <img src="<?=base_url?>assets/img/diseño-de-paginas-web.png" title="diseño web cancun" alt="imagen de los diseños web cancun">
+        <img src="<?=base_url?>assets/img/diseño-de-paginas-web.png" title="Desarrollo y diseño de paginas web en Cancún" alt="imagen desarrollo y diseño de paginas web en Cancún">
     </div>
     <div class="informacion-web">
         <p>Otórgale una fuerte presencia en línea a tu negocio con un sitio web atractivo y funcional. En <strong>DevsCun</strong>, somos especialistas en hacer que tu idea de página web se materialice y alcance los objetivos que estás fijando.</p>
@@ -68,7 +68,7 @@
         </div>
         <div class="img-responsibe">
             <div class="caja-img-responsive">
-                <img src="<?=base_url?>assets/img/diseño-web-responsivo.png" title="imagen de diseño web responsivo en cancun"alt="imagen de diseño web responsive en cancun">
+                <img src="<?=base_url?>assets/img/diseño-web-responsivo.png" title="Diseño de paginas web responsivo" alt="imagen diseño de paginas web responsivo">
             </div>
         </div>
     </div>

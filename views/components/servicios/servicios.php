@@ -9,7 +9,7 @@
                     <div class="item-icono">
                         <div class="caja-icono">
                             <div class="icono">
-                                <img src="<?=base_url?>assets/img/iconos-devscun/icono-diseño-web-responsivo.png" alt="imagen de Diseño web responsivo">
+                                <img src="<?=base_url?>assets/img/iconos-devscun/icono-diseño-web-responsivo.png" alt="imagen desarrollo y deseño de paginas web resposivos">
                             </div>
                         </div>
                     </div>
@@ -22,7 +22,7 @@
                     <div class="item-icono">
                         <div class="caja-icono">
                             <div class="icono">
-                                <img src="<?=base_url?>assets/img/iconos-devscun/icono-paginas-web-administrable.png" alt="imagen de Contenido administrable">
+                                <img src="<?=base_url?>assets/img/iconos-devscun/icono-paginas-web-administrable.png" alt="imagen desarrollo de paginas web autoadministrable">
                             </div>
                         </div>
                     </div>
@@ -35,7 +35,7 @@
                     <div class="item-icono">
                         <div class="caja-icono">
                             <div class="icono">
-                                <img src="<?=base_url?>assets/img/iconos-devscun/icono-tienda-online.png" alt="imagen de Tienda online">
+                                <img src="<?=base_url?>assets/img/iconos-devscun/icono-tienda-online.png" alt="imagen tienda online y diseño de paginas web">
                             </div>
                         </div>
                     </div>
@@ -48,7 +48,7 @@
                     <div class="item-icono">
                         <div class="caja-icono">
                             <div class="icono">
-                                <img src="<?=base_url?>assets/img/iconos-devscun/icono-contenido-web.png" alt="imagen de Seo & Sem">
+                                <img src="<?=base_url?>assets/img/iconos-devscun/icono-contenido-web.png" alt="imagen  Seo & Sem">
                             </div>
                         </div>
                     </div>
@@ -61,7 +61,7 @@
                     <div class="item-icono">
                         <div class="caja-icono">
                             <div class="icono">
-                                <img src="<?=base_url?>assets/img/iconos-devscun/icono-seo.png" alt="imagen de Creación de contenido">
+                                <img src="<?=base_url?>assets/img/iconos-devscun/icono-seo.png" alt="imagen Creación de contenido web">
                             </div>
                         </div>
                     </div>
