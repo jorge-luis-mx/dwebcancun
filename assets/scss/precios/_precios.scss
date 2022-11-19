@@ -42,22 +42,24 @@
          .card-col-body{
             height: 100%;
             background-color: v.$blanco;
-         }
-         .card-body{
-            padding: .5em;
-            text-align: center;
-            color: v.$negro;
-            h5{
-               margin-top: 1.2rem;
-               font-size: 1rem;
-               padding: 0;
+            .card-body{
+               padding: .5em;
+               text-align: center;
+               .precio{
+                  margin-top: 1.2rem;
+                  font-size: 1.1rem;
+                  padding: 0;
+                  color: v.$btn-pagina !important;
+                  
+               }
+               P{
+                  font-size: 1.2rem;
+                  line-height: 1.5rem;
+               }
+         
             }
-            P{
-               font-size: 1.2rem;
-               line-height: 1.5rem;
-            }
-      
          }
+
       }
    
       @include m.telefono(){
