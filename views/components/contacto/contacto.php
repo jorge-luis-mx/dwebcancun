@@ -88,7 +88,7 @@
                   <ul>
                      <li>
                         <i class="fas fa-phone"></i>
-                        998 577 5390
+                        998 4085290
                      </li>
                      <li>
                         <i class="fas fa-envelope"></i>

@@ -13,7 +13,7 @@
             <p>Aquellos negocios en Cancún y sus alrededores que cuentan con una página web, han visto potenciado y consolidado su modelo, logrando que no sólo quienes se encuentren en el destino tengan acceso a los servicios que estos ofrecen, sino también dando oportunidad a usuarios de todo el mundo de conocer sus productos, lograr reservas, más ventas y mayor crecimiento.</p>
          </div>
          <div class="img-web-cancun">
-            <img src="<?=base_url?>assets/img/paginas-web-cancun.jpg" title="Diseño de paginas web en Cancún" alt="Diseño de paginas web en Cancún y tienda on line">
+            <img loading="lazy" decoding="async" src="<?=base_url?>assets/img/paginas-web-cancun.webp" title="Diseño de paginas web en Cancún" alt="Diseño de paginas web en Cancún y tienda on line">
          </div>
       </div>
    </div>

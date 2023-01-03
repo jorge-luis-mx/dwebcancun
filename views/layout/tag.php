@@ -38,6 +38,19 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title><?=$metaTitle?></title>
     <meta name="description" content="<?=$metaDescription?>"/>
+
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.devscun.com/">
+    <meta property="og:title" content="DevsCUN | Desarrollo y Diseño de Páginas Web">
+    <meta property="og:description" content="Cotiza y adquiere una página web personalizada para tu negocio. Diseñamos y construimos páginas web responsivas, optimizadas y con proceso de pago.">
+    <meta property="og:image" content="https://www.devscun.com/assets/img/logo-devscun.png">
+
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://www.devscun.com/">
+    <meta property="twitter:title" content="DevsCUN | Desarrollo y Diseño de Páginas Web">
+    <meta property="twitter:description" content="Cotiza y adquiere una página web personalizada para tu negocio. Diseñamos y construimos páginas web responsivas, optimizadas y con proceso de pago.">
+    <meta property="twitter:image" content="https://www.devscun.com/assets/img/logo-devscun.png">
+
     <link rel="shortcut icon" type="image/x-icon" href="<?=base_url?>assets/img/icon-devscun.png" /> 
     <link rel="stylesheet" href="<?=base_url?>assets/build/css/app.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">

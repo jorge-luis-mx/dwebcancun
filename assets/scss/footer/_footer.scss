@@ -7,22 +7,6 @@
         display: flex;
         flex-direction: column;
         padding: 1rem;
-        @include m.telefono{
-            flex-direction: row;
-            flex-wrap: wrap;
-            .menu{
-                flex: 0 0 calc(50%);
-                text-align: center;
-            }
-        }
-        @include m.desktop{
-            flex-direction: row;
-            flex-wrap: wrap;
-            .menu{
-                flex: 1 0 ;
-                text-align: justify;
-            }
-        }
         .menu{
             display: flex;
             flex-direction: column;
@@ -32,16 +16,43 @@
                 font-size: 1.2rem;
                 font-weight: 400;
                 font-family: v.$fuente_principal;
-            }
-            a{
-                font-size: .9rem;
                 color: v.$negro;
                 text-decoration: none;
                 margin-bottom: .5rem;
+            }
+            .enlace{
+                font-size: .9rem;
+                color: v.$negro;
+                text-decoration: none;
                 font-family: v.$fuente_principal;
                 font-weight: 300;
+                padding: 1rem 0rem 1rem 0rem;
             }
         }
+
     }
+    @include m.tablet{
+        .contenedor-footer{
+            flex-direction: row;
+            flex-wrap: wrap;
+            .menu{
+                display: flex;
+                flex-direction: column;
+                margin-bottom: 1rem;
+                flex: 1;
+                .enlace{
+                    font-size: .9rem;
+                    color: v.$negro;
+                    text-decoration: none;
+                    font-family: v.$fuente_principal;
+                    font-weight: 300;
+                    padding: .5rem 0rem .5rem 0rem;
+                }
+            }
+
+        }
+    }
+
+
 }
 

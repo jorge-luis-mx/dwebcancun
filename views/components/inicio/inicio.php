@@ -44,7 +44,7 @@
 
 <div class="info-web contenedor">
     <div class="informacion-web-img">
-        <img src="<?=base_url?>assets/img/diseño-de-paginas-web.png" title="Desarrollo y diseño de paginas web en Cancún" alt="imagen desarrollo y diseño de paginas web en Cancún">
+        <img loading="lazy" decoding="async" src="<?=base_url?>assets/img/diseño-de-paginas-web.webp" title="Desarrollo y diseño de paginas web en Cancún" alt="imagen desarrollo y diseño de paginas web en Cancún">
     </div>
     <div class="informacion-web">
         <p>Otórgale una fuerte presencia en línea a tu negocio con un sitio web atractivo y funcional. En <strong>DevsCun</strong>, somos especialistas en hacer que tu idea de página web se materialice y alcance los objetivos que estás fijando.</p>
@@ -68,7 +68,7 @@
         </div>
         <div class="img-responsibe">
             <div class="caja-img-responsive">
-                <img src="<?=base_url?>assets/img/diseño-web-responsivo.png" title="Diseño de paginas web responsivo" alt="imagen diseño de paginas web responsivo">
+                <img loading="lazy" decoding="async" src="<?=base_url?>assets/img/diseño-web-responsivo.webp" title="Diseño de paginas web responsivo" alt="imagen diseño de paginas web responsivo">
             </div>
         </div>
     </div>
@@ -78,5 +78,8 @@
     <div class="somos">
         <span>¿Por qué confiarnos en tu proyecto?</span>
         <p>Porque quieres que un grupo de profesionales se dedique a darle la mejor presencia web a tu proyecto, porque quieres alcanzar ciertos objetivos con tu sitio web o porque quieres delegar las estrategias online de tu negocio. Por estas, y otras razones, en <strong>DevsCun</strong> hacemos el trabajo requerido para que tu sitio web sea una herramienta de crecimiento.</p>
+    </div>
+    <div>
+        <a href="https://g.page/r/Cc9-lS0n8KATEAI/review"></a>
     </div>
 </div>
