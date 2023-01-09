@@ -45,7 +45,7 @@
     <meta property="og:description" content="Cotiza y adquiere una página web personalizada para tu negocio. Diseñamos y construimos páginas web responsivas, optimizadas y con proceso de pago.">
     <meta property="og:image" content="https://www.devscun.com/assets/img/logo-devscun.png">
 
-    <link rel="shortcut icon" type="image/x-icon" href="<?=base_url?>assets/img/icon-devscun.png" /> 
+    <link rel="shortcut icon" type="image/x-icon" href="<?=base_url?>assets/img/favicon.ico" /> 
     <link rel="stylesheet" href="<?=base_url?>assets/build/css/app.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap" rel="stylesheet">

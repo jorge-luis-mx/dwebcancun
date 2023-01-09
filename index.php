@@ -53,6 +53,13 @@ if(isset($_GET['route'])){
 			$objController = new $controller();
 			$objController->$controllerMetod();
 			 break;
+		case "portafolio":
+
+			$controller='portafolioController';
+			$controllerMetod='portafolio';
+			$objController = new $controller();
+			$objController->$controllerMetod();
+			break;
 		case "nosotros":
 
 			$controller='nosotrosController';

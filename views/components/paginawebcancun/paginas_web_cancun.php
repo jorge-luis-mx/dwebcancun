@@ -17,5 +17,19 @@
          </div>
       </div>
    </div>
+   <div class="ultimos-trabajos">
+      <h3><strong>Ultimos diseños de paginas web DevsCUN</strong></h3>
+      <div class="container-ultimo-t">
+         <div class="article-portafolio">
+            <img src="<?=base_url?>assets/img/ultimos-trabajos/ultimos-diseños-web-devscun-1.webp" alt="Ultimo diseño de paginas imagen-1">
+         </div>
+         <div class="article-portafolio">
+            <img src="<?=base_url?>assets/img/ultimos-trabajos/ultimos-diseños-web-devscun-2.webp" alt="Ultimo diseño de paginas imagen-2">
+         </div>
+         <div class="article-portafolio">
+            <img src="<?=base_url?>assets/img/ultimos-trabajos/ultimos-diseños-web-devscun-3.webp" alt="Ultimo diseño de paginas imagen-3">
+         </div>
+      </div>
+   </div>
 </div>
 
