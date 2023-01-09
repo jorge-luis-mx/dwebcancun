@@ -31,7 +31,7 @@
             </div>
         </div>
     </footer>
-    <script src="<?=base_url?>assets/js/menu.js"></script>
+    <script src="<?=base_url?>assets/build/js/menu.min.js"></script>
     <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 </body>
 </html>
