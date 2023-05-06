@@ -5,6 +5,7 @@ require_once 'config/db.php';
 require_once 'config/parameters.php';
 require_once 'views/layout/tag.php';
 require_once 'views/components/header/header.php';
+//controllers
 require_once 'controllers/InicioController.php';
 require_once 'controllers/ServiciosController.php';
 require_once 'controllers/PreciosController.php';
@@ -29,66 +30,62 @@ if(isset($_GET['route'])){
 	switch ($_GET['route']) {
 		case "paginas-web-cancun":
 
-			// $controller = controller_default;
-			// $objController = new $controller();
-			// $objController->inicio();
 
-			$controller='paginaCancunController';
-			$controllerMetod='paginaCancun';
-			$objController = new $controller();
-			$objController->$controllerMetod();
+			$objController = new paginaCancunController;
+			$objController->paginaCancun();
 			break;
 
 		case "servicios-de-paginas-web-cancun":
 
-			$controller='serviciosController';
-			$controllerMetod='servicios';
-			$objController = new $controller();
-			$objController->$controllerMetod();
+
+			$objController = new serviciosController;
+			$objController->servicios();
 
 			break;
 		case "precios-de-paginas-web-cancun":
 
-			$controller='preciosController';
-			$controllerMetod='precios';
-			$objController = new $controller();
-			$objController->$controllerMetod();
+
+			$objController = new preciosController;
+			$objController->precios();
 			 break;
 		case "portafolio":
 
-			$controller='portafolioController';
-			$controllerMetod='portafolio';
-			$objController = new $controller();
-			$objController->$controllerMetod();
+
+			$objController = new portafolioController;
+			$objController->portafolio();
 			break;
+
+		case "blog":
+
+
+			$objController = new blogController;
+			$objController->blog();
+			break;
+
 		case "nosotros":
 
-			$controller='nosotrosController';
-			$controllerMetod='nosotros';
-			$objController = new $controller();
-			$objController->$controllerMetod();
+
+			$objController = new nosotrosController;
+			$objController->nosotros();
 			break;
 		case "contacto":
 
-			$controller='contactoController';
-			$controllerMetod='contacto';
-			$objController = new $controller();
-			$objController->$controllerMetod();
+
+			$objController = new contactoController;
+			$objController->contacto();
 			break;
 
 		case "404":
 
-				$controller='errorController';
-				$controllerMetod='error';
-				$objController = new $controller();
-				$objController->$controllerMetod();
+
+			$objController = new errorController;
+			$objController->error();
 		break;
 
 		default:
-			$controller='paginaController';
-			$controllerMetod='pagina';
-			$objController = new $controller();
-			$objController->$controllerMetod();
+
+			$objController = new paginaController;
+			$objController->pagina();
   	}
 
 

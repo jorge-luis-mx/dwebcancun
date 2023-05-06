@@ -14,7 +14,7 @@ RewriteCond %{SCRIPT_FILENAME} !-f
 
 RewriteRule ^([-a-zA-Z0-9/_]+)$ index.php?route=$1
 
-ErrorDocument 404 https://www.devscun.com/404
+#ErrorDocument 404 https://www.devscun.com/404
 Options -Indexes
 
 </IfModule>

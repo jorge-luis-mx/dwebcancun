@@ -14,7 +14,8 @@
                 <li><a href="servicios-de-paginas-web-cancun">Servicios</a></li>
                 <li><a href="precios-de-paginas-web-cancun">Precios</a></li>
                 <li><a href="portafolio">Portafolio</a></li>
-                <li><a href="nosotros">Nosotros</a></li>
+                <!-- <li><a href="blog">Blog</a></li>
+                <li><a href="nosotros">Nosotros</a></li> -->
                 <li><a href="contacto">Contacto</a></li>
             </ul>
         </div>
