@@ -17,34 +17,39 @@
       display: flex;
       flex-direction: column-reverse;
       flex-wrap: wrap;
-      padding: 1rem;
+      box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+      margin-top: 2.8rem;
       .conte-web-cancun{
          flex: 0 0 calc(100%);
-   
+         background: rgb(21,41,124);
+         background: linear-gradient(90deg, rgba(21,41,124,1) 0%, rgba(16,114,235,1) 77%);
+         color: white;
+         h2{
+            margin: 1rem;
+            color: white;
+            font-size: 2rem;
+            margin-top: 2rem;
+         }
          p{
             font-size: 1.1rem;
             line-height: 2rem;
+            margin: 1rem;
+            margin-top: 1.5rem;
+            a{
+               color: white;
+            }
          }
       }
       .img-web-cancun{
          flex: 0 0 calc(100%);
-         margin-top: 1rem;
          img{
             width: 100%;
-            box-shadow: rgb(60 64 67 / 30%) 0px 1px 2px 0px, rgb(60 64 67 / 15%) 0px 2px 6px 2px;
-            border-radius: 5px;
          }
       }
+
    }
 
 
-   @include m.telefono(){
-      
-   }
-   @include m.tablet(){
-  
-
-   }
    @include m.desktop(){
       .container-pregunta{
          .pregunta{
@@ -67,37 +72,49 @@
             p{
                font-size: 1.1rem;
                line-height: 2rem;
+               a{
+                  color: white;
+               }
             }
+
          }
          .img-web-cancun{
             flex: 1 0 calc(40%);
-            margin-top: 1rem;
-            margin: .5rem;
+            display: flex;
+            justify-content: center;
+            align-items: flex-end;
             img{
                width: 100%;
-               box-shadow: rgb(60 64 67 / 30%) 0px 1px 2px 0px, rgb(60 64 67 / 15%) 0px 2px 6px 2px;
-               border-radius: 5px;
             }
          }
       }    
    }
 }
 
-.container-ultimo-t{
-   display: flex;
-   justify-content: space-around;
-   flex-wrap: wrap;
-   margin-top: 2rem;
-   margin-bottom: 2rem;
-   .article-portafolio{
-      flex: 1 0 calc(31.33%);
-      margin: .6rem;
-      margin-bottom: 1rem;
-      box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
-      img{
-         width: 100%;
-         height: 100%;
+.ultimos-trabajos{
+   h3{
+      margin-left: 0.5rem;
+      font-size: 1.8rem;
+      line-height: 2rem;
+   }
+   .container-ultimo-t{
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+      margin-top: 2rem;
+      margin-bottom: 2rem;
+   
+      .article-portafolio{
+         flex: 1 0 calc(31.33%);
+         margin: .6rem;
+         margin-bottom: 1rem;
+         box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+         img{
+            width: 100%;
+            height: 100%;
+         }
       }
    }
 }
+
 

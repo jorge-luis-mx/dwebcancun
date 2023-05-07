@@ -49,7 +49,7 @@
     <div class="informacion-web">
         <p>Otórgale una fuerte presencia en línea a tu negocio con un sitio web atractivo y funcional. En <strong>DevsCun</strong>, somos especialistas en hacer que tu idea de página web se materialice y alcance los objetivos que estás fijando.</p>
         
-        <h2>Optimización SEO y creación de contenido web</h2>
+        <h2 title="Optimización SEO y creación de contenido web">Optimización SEO y creación de contenido web</h2>
         <p>Además de crear tu web, la posicionamos para las búsquedas más afines a tu producto o servicio y lo mantenemos actualizado con las novedades de tu negocio e industria.</p>
     </div>
 </div>
