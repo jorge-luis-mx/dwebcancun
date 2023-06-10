@@ -33,16 +33,16 @@
                         <input type="text" id="correo" name="correo" class="form-control iam-input"   required>
                         <p class="has-text-danger is-block mt-2 oculto">Correo es requerido</p>
                      </div>
-                     <div class="input-group">
+                     <!-- <div class="input-group">
                         <div class="input-group-prepend">
                            <label for="pais">Pais</label>
                         </div>
                         <input type="text" id="pais" name="pais" class="form-control iam-input"   required>
                         <p class="has-text-danger is-block mt-2 oculto">Pais es requerido</p>
-                     </div>
+                     </div> -->
                   </div>
 
-                  <div class="inputs">
+                  <!-- <div class="inputs">
                      <div class="input-group">
                         <div class="input-group-prepend">
                            <label for="estado">Estado</label>
@@ -57,7 +57,7 @@
                         <input type="text" id="ciudad" name="ciudad" class="form-control iam-input"  required>
                         <p class="has-text-danger is-block mt-2 oculto">Ciudad es requerido</p>
                      </div>
-                  </div>
+                  </div> -->
 
                   <div class="inputs-asunto">
                      <div class="input-group">

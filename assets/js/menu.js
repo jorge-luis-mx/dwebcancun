@@ -1,4 +1,5 @@
 window.addEventListener('DOMContentLoaded', (event) => {
+
    let localObj = window.location;
    let contextPath = localObj.pathname.split("/")[1];
    let path = localObj.protocol + "//" + localObj.host + "/"+ contextPath;
@@ -37,6 +38,41 @@ window.addEventListener('DOMContentLoaded', (event) => {
            });
        });
    }
+
+   //validations inputs
+   const expresiones = {
+      letras_espacios_acentos: /^[a-zA-ZÀ-ÿ\s]{1,40}$/, // Letras y espacios, pueden llevar acentos.
+      telefono: /^\d{7,14}$/, // 7 a 14 numeros.
+      correo: /^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+$/,
+      
+   }
+
+   // const campos = {
+   //    usuario: false,
+   //    nombre: false,
+   //    password: false,
+   //    correo: false,
+   //    telefono: false
+   // }
+
+   const inputs = document.querySelectorAll('#contactoForm input');
+   if(inputs != null) {
+  
+      inputs.forEach((input) => {
+
+         input.addEventListener('keyup', (e)=>{
+            dealsModule.validarFormulario(e);
+         });
+         input.addEventListener('blur', (e)=>{
+            dealsModule.validarFormulario(e);
+         });
+         
+
+      });
+   }
+
+
+
    const dealsModule = {
 
       showMenu: function(e) {
@@ -61,20 +97,66 @@ window.addEventListener('DOMContentLoaded', (event) => {
          }
       },
 
+      validarFormulario:function(e){
+      
+         switch (e.target.name) {
+            case "nombre":
+              this.ruleinputs(expresiones.letras_espacios_acentos, e.target, e.target.name);
+            break;
+
+            case "telefono":
+               this.ruleinputs(expresiones.telefono, e.target, e.target.name);
+            break;
+
+            case "correo":
+               this.ruleinputs(expresiones.correo, e.target, e.target.name);
+            break;
+
+            case "pais":
+               this.ruleinputs(expresiones.letras_espacios_acentos, e.target, e.target.name);
+            break;
+
+            case "estado":
+               this.ruleinputs(expresiones.letras_espacios_acentos, e.target, e.target.name);
+            break;
+
+            case "ciudad":
+               this.ruleinputs(expresiones.letras_espacios_acentos, e.target, e.target.name);
+            break;
+
+            case "asunto":
+               this.ruleinputs(expresiones.letras_espacios_acentos, e.target, e.target.name);
+            break;
+
+            case "mensaje":
+               this.ruleinputs(expresiones.letras_espacios_acentos, e.target, e.target.name);
+            break;
+   
+         }
+      },
+
+
+      ruleinputs:function(expresion, input, campo){
+         if(expresion.test(input.value)){
+            document.getElementById(campo).classList.remove('danger-input');
+         }else{
+            document.getElementById(campo).classList.add('danger-input');
+            document.getElementById(campo).focus();
+         }
+      },
+
 
       contactSubmit: async function(path,e){
          e.preventDefault();
+         
          const contacto = document.getElementById('contactoForm');
          const engine = new FormData(contacto);
  
          const validate = {
             nombre : engine.get('nombre'),
-            correo : engine.get('correo'),
             telefono : engine.get('telefono'),
+            correo : engine.get('correo'),
             asunto : engine.get('asunto'),
-            pais :   engine.get('pais'),
-            estado : engine.get('estado'),
-            ciudad : engine.get('ciudad'),
             mensaje : engine.get('mensaje')
          };
 
@@ -92,20 +174,20 @@ window.addEventListener('DOMContentLoaded', (event) => {
              return false;
          }
  
-         if(validate.pais == null || validate.pais == 0 || /^\s+$/.test(validate.pais)) {
-            this.errorActive('pais');
-            return false;
-         }
+         // if(validate.pais == null || validate.pais == 0 || /^\s+$/.test(validate.pais)) {
+         //    this.errorActive('pais');
+         //    return false;
+         // }
 
-         if(validate.estado == null || validate.estado == 0 || /^\s+$/.test(validate.estado)) {
-            this.errorActive('estado');
-            return false;
-         } 
+         // if(validate.estado == null || validate.estado == 0 || /^\s+$/.test(validate.estado)) {
+         //    this.errorActive('estado');
+         //    return false;
+         // } 
 
-         if(validate.ciudad == null || validate.ciudad == 0 || /^\s+$/.test(validate.ciudad)) {
-            this.errorActive('ciudad');
-            return false;
-         }
+         // if(validate.ciudad == null || validate.ciudad == 0 || /^\s+$/.test(validate.ciudad)) {
+         //    this.errorActive('ciudad');
+         //    return false;
+         // }
 
          if(validate.asunto == null || validate.asunto == 0 || /^\s+$/.test(validate.asunto)) {
             this.errorActive('asunto');
@@ -156,17 +238,17 @@ window.addEventListener('DOMContentLoaded', (event) => {
      },
       removeError: function(el) {
          const error = el.target.nextElementSibling;
-         // console.log(error)
          if(error.classList.contains('mostrar')) {
             error.classList.remove('mostrar');
             error.classList.add('oculto');
          }
       },
       justNumeric: function(e) {
-         if (e.charCode < 48 || e.charCode > 57) {
-             e.preventDefault();
-             return false;
-         }
+         // console.log(e.charCode)
+         // if (e.charCode < 48 || e.charCode > 57) {
+         //     e.preventDefault();
+         //     return false;
+         // }
      }
 
    }
